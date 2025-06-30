@@ -229,11 +229,8 @@
 									Я согласен на обработку моих <a href="#">персональных данных</a>.
 								</label>
 
-															<input type="hidden" id="g-recaptcha-response-message" name="g-recaptcha-response">
-
-                              <button  type="submit"  class="btn btn-danger"  style="width: 100%">
-                                Отправить
-                              </button>
+								<input type="hidden" id="g-recaptcha-response-calculate" name="g-recaptcha-response">
+								<button  type="submit"  class="btn btn-danger"  style="width: 100%">Отправить</button>
                           </form>
                         </div>
                     </div>
