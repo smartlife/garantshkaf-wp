@@ -1815,16 +1815,14 @@ include 'header.php';
 									</p>
 									<p><input type="email" id="email" name="email" class="form-control" placeholder="Ваш email" required>
 									</p>
-									<!--label class="form-check-label" for="exampleCheck11">
+									
+									<label class="form-check-label" for="exampleCheck11">
 										<input  type="checkbox" class="form-check-input" id="exampleCheck11" checked>
 										Я согласен на обработку моих <a href="index.html">персональных данных</a>.
-									</label-->
+									</label>
 
 									<input type="hidden" id="g-recaptcha-response-message" name="g-recaptcha-response">
-
-									<button type="submit" class="btn btn-danger" style="width: 100%">
-										Отправить
-									</button>
+									<button type="submit" class="btn btn-danger" style="width: 100%">Отправить</button>
 								</form>
 							</div>
 						</div>
@@ -2014,6 +2012,7 @@ include 'header.php';
 	</div>
 </footer>
 
+
 <script src='https://www.google.com/recaptcha/api.js?render=6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn'></script>
 <script>
 	grecaptcha.ready(function () {
@@ -2030,4 +2029,6 @@ include 'header.php';
 		});
 	});
 </script>
+
+
 <?php include 'footer.php'; ?>

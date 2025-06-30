@@ -983,13 +983,13 @@
 											<input  type="text"  name="tel" id="phone_mask_3"  class="form-control telMask"  style="margin-top: 15px"  placeholder="Ваш телефон"  required/>
 										</p>
 										<p><input  type="email"  id="email"  name="email"  class="form-control"  placeholder="Ваш email" required></p>
+										
 										<label class="form-check-label" for="exampleCheck11">
 											<input  type="checkbox" class="form-check-input" id="exampleCheck11" checked>
 											Я согласен на обработку моих <a href="index.html">персональных данных</a>.
 										</label>
-										<button  type="submit"  class="btn btn-danger"  style="width: 100%">
-											Отправить
-										</button>
+										<input type="hidden" id="g-recaptcha-response-message" name="g-recaptcha-response">
+										<button type="submit" class="btn btn-danger" style="width: 100%">Отправить</button>
 									</form>
                                 </div>
                             </div>
@@ -1107,96 +1107,99 @@
 
 
 
-    <div id="sp-contacts"></div>
-    <footer id="footer">
-        <div  class="container" style="max-width: 1700px; border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
-            <div class="row">
-                <div class="col-md-3 offset-md-1">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/logo.png" class="img-fluid logo" />
-					<p><span>Время работы:</span></p>
-					<p>Пн. - Вс. с 8:00 до 22:00</p>
-					<p><span>Адрес производства:</span></p>
-					<p>Московская обл., гор. Лобня, ул. Промышленная, д. 4Д.</p>
-                </div>
-                <div class="col-md-4 offset-md-1">
-					<h2>КАРТА САЙТА</h2>
-					<div class="row">
-						<div class="col-md-6">
-							<ul>
-								<li><a href="#sp-home">Главная</a></li>
-								<li><a href="#sp-video">Видеопрезентация</a></li>
-								<li><a href="#sp-portfolio">Наши работы</a></li>
-								<li><a href="#sp-about">О нас</a></li>
-								<li><a href="#sp-testimonials">Отзывы</a></li>
-								<li><a href="#sp-kak-zakazat">Как заказать</a></li>
-								<li><a href="#sp-faq">Частые вопросы</a></li>
-								<li><a href="#sp-contacts">Контакты</a></li>
-							</ul>
-						</div>
-						<div class="col-md-6">
-							<ul>
-								<li><a href="/">Корпусная мебель</a></li>
-								<li><a href="/shkafy-cupe">Шкафы-купе</a></li>
-								<li><a href="/dveri-cupe" class="active">Двери-купе</a></li>
-								<li><a href="/shkafy-raspashnye">Шкафы распашные</a></li>
-								<li><a href="/garderobnye">Гардеробные</a></li>
-								<li><a href="/rabochie-zony">Рабочие зоны</a></li>
-							</ul>
-						</div>
+<div id="sp-contacts"></div>
+<footer id="footer">
+	<div  class="container" style="max-width: 1700px; border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
+		<div class="row">
+			<div class="col-md-3 offset-md-1">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/logo.png" class="img-fluid logo" />
+				<p><span>Время работы:</span></p>
+				<p>Пн. - Вс. с 8:00 до 22:00</p>
+				<p><span>Адрес производства:</span></p>
+				<p>Московская обл., гор. Лобня, ул. Промышленная, д. 4Д.</p>
+			</div>
+			<div class="col-md-4 offset-md-1">
+				<h2>КАРТА САЙТА</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<ul>
+							<li><a href="#sp-home">Главная</a></li>
+							<li><a href="#sp-video">Видеопрезентация</a></li>
+							<li><a href="#sp-portfolio">Наши работы</a></li>
+							<li><a href="#sp-about">О нас</a></li>
+							<li><a href="#sp-testimonials">Отзывы</a></li>
+							<li><a href="#sp-kak-zakazat">Как заказать</a></li>
+							<li><a href="#sp-faq">Частые вопросы</a></li>
+							<li><a href="#sp-contacts">Контакты</a></li>
+						</ul>
 					</div>
-                </div>
-                <div class="col-md-2">
-					<h2>Контакты</h2>
-					<p><span style="padding-top: 0px">Телефоны:</span></p>
-					<a href="tel:89856445775">8 (985) 644-57-75</a>
-					<!--a href="tel:89646443123">8 (964) 644-31-23</a-->
-					<p><span>E-mail:</span></p>
-					<a href="mailto:garantshkaf@mail.ru">garantshkaf@mail.ru</a>
-					<p><span>Соц. сети:</span></p>
-					<div class="social">
-						<a  href="https://wa.me/79856445775?web=1&amp;app_absent=1"  target="_blank">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/whatsapp-ico.svg" class="ico-button"/>
-						</a>
-						<!-- a href="https://vk.com/mebelnaya_fabrika_garantshkaf" target="_blank">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/vk.png" class="img-fluid" />
-						</a -->
-						<a href="https://t.me/+79856445775" target="_blank">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/telegram-ico.svg" class="ico-button" />
-						</a>
-						<!-- a href="#">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/telega.png" class="img-fluid" />
-						</a -->
+					<div class="col-md-6">
+						<ul>
+							<li><a href="/">Корпусная мебель</a></li>
+							<li><a href="/shkafy-cupe">Шкафы-купе</a></li>
+							<li><a href="/dveri-cupe" class="active">Двери-купе</a></li>
+							<li><a href="/shkafy-raspashnye">Шкафы распашные</a></li>
+							<li><a href="/garderobnye">Гардеробные</a></li>
+							<li><a href="/rabochie-zony">Рабочие зоны</a></li>
+						</ul>
 					</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col p-0 mb-3">
-                  <hr class="" />
-                </div>
-            </div>
-            <div id="footer1" class="row align-items-center">
-				<div class="col">
-					<p class="font-weight-bold text-center mb-0">©<?php echo date('Y'); ?>г. Мебельная фабрика «Гарантшкаф»</p>
-					<p class="font-weight-light m-0 text-center fs-16">Создание и продвижение: <a href="https://site100.ru" target="_blank">site<span class="text-danger">100</span>.ru</a></p>
 				</div>
 			</div>
-        </div>
-    </footer>
+			<div class="col-md-2">
+				<h2>Контакты</h2>
+				<p><span style="padding-top: 0px">Телефоны:</span></p>
+				<a href="tel:89856445775">8 (985) 644-57-75</a>
+				<!--a href="tel:89646443123">8 (964) 644-31-23</a-->
+				<p><span>E-mail:</span></p>
+				<a href="mailto:garantshkaf@mail.ru">garantshkaf@mail.ru</a>
+				<p><span>Соц. сети:</span></p>
+				<div class="social">
+					<a  href="https://wa.me/79856445775?web=1&amp;app_absent=1"  target="_blank">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/whatsapp-ico.svg" class="ico-button"/>
+					</a>
+					<!-- a href="https://vk.com/mebelnaya_fabrika_garantshkaf" target="_blank">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/vk.png" class="img-fluid" />
+					</a -->
+					<a href="https://t.me/+79856445775" target="_blank">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/telegram-ico.svg" class="ico-button" />
+					</a>
+					<!-- a href="#">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/telega.png" class="img-fluid" />
+					</a -->
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col p-0 mb-3">
+			  <hr class="" />
+			</div>
+		</div>
+		<div id="footer1" class="row align-items-center">
+			<div class="col">
+				<p class="font-weight-bold text-center mb-0">©<?php echo date('Y'); ?>г. Мебельная фабрика «Гарантшкаф»</p>
+				<p class="font-weight-light m-0 text-center fs-16">Создание и продвижение: <a href="https://site100.ru" target="_blank">site<span class="text-danger">100</span>.ru</a></p>
+			</div>
+		</div>
+	</div>
+</footer>
 
-		<script src='https://www.google.com/recaptcha/api.js?render=6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn'></script>
-		<script>
-			grecaptcha.ready(function() {
-				grecaptcha.execute('6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn', {action: 'action_name'}).then(function(token) {
-					if ( document.getElementById('g-recaptcha-response-order') ) {
-						document.getElementById('g-recaptcha-response-order').value=token;
-					}
-					if ( document.getElementById('g-recaptcha-response-message') ) {
-						document.getElementById('g-recaptcha-response-message').value=token;
-					}
-					if ( document.getElementById('g-recaptcha-response-callback') ) {
-							document.getElementById('g-recaptcha-response-callback').value=token;
-					}
-				});
-			});
-		</script>
+
+<script src='https://www.google.com/recaptcha/api.js?render=6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn'></script>
+<script>
+	grecaptcha.ready(function() {
+		grecaptcha.execute('6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn', {action: 'action_name'}).then(function(token) {
+			if ( document.getElementById('g-recaptcha-response-order') ) {
+				document.getElementById('g-recaptcha-response-order').value=token;
+			}
+			if ( document.getElementById('g-recaptcha-response-message') ) {
+				document.getElementById('g-recaptcha-response-message').value=token;
+			}
+			if ( document.getElementById('g-recaptcha-response-callback') ) {
+					document.getElementById('g-recaptcha-response-callback').value=token;
+			}
+		});
+	});
+</script>
+		
+		
 <?php include 'footer.php'; ?>
