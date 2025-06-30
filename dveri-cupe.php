@@ -947,59 +947,70 @@
 
    
 
-	<!-- SECTION ORDER 1 -->
-    <section class="section-order-1 pt-md-0">
-        <div class="container" style="max-width: 1700px; padding-top: 80px; padding-bottom: 80px; border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <h3 class="text-center">Рассчитаем точную стоимость дверей-купе за 15 минут!</h3>
-					<div class="section-title-decoration"></div>
-					<p class="text-center mb-5">Это бесплатно и ни к чему Вас не обязывает</p>
-					<div class="row">
-                        <div class="col-lg-6 text-center">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/question-shkaf.png"  class="question-img img-fluid"/>
-                        </div>
-						<div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-2">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/question.png" class="img-fluid" />
-                                </div>
-                                <div class="col-10">
-									<p class="mb-2">Для расчета опишите дверь-купе своими словами. При возможности прикрепите изображение.</p>
-									<form  method="post"  action="<?php echo get_template_directory_uri(); ?>/mails/get_calculate.php" enctype="multipart/form-data">
-										<textarea type="text" rows="3" name="mes" class="form-control" placeholder="Например: длина, ширина, глубина, количество дверей, материал дверей, форма, вид шкафа и т.д." style="height: auto;  margin-top: 15px;  margin-bottom: 15px;"></textarea>
-										<p class="input-group custom-file-button">
-											<label class="input-group-text" for="inputGroupFile3">
-												Прикрепить
-											</label>
-											<input  type="file"  name="file[]"  class="form-control"  style="border: none"  id="inputGroupFile3"  accept=".jpg,.jpeg,.png,.pdf,.heic"  multiple=""/>
-										</p>
-
-										<p>
-											<input  type="text"   name="name"  class="form-control"  style="margin-top: 15px"  placeholder="Ваше Имя"/>
-										</p>
-
-										<p>
-											<input  type="text"  name="tel" id="phone_mask_3"  class="form-control telMask"  style="margin-top: 15px"  placeholder="Ваш телефон"  required/>
-										</p>
-										<p><input  type="email"  id="email"  name="email"  class="form-control"  placeholder="Ваш email" required></p>
-										
-										<label class="form-check-label" for="exampleCheck11">
-											<input  type="checkbox" class="form-check-input" id="exampleCheck11" checked>
-											Я согласен на обработку моих <a href="index.html">персональных данных</a>.
+<!-- SECTION ORDER 1 -->
+<section class="section-order-1 pt-md-0">
+	<div class="container"
+		style="max-width: 1700px; padding-top: 80px; padding-bottom: 80px; border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
+		<div class="row">
+			<div class="col-md-8 offset-md-2">
+				<h3 class="text-center">Рассчитаем точную стоимость шкафа-купе за 15 минут!</h3>
+				<div class="section-title-decoration"></div>
+				<p class="text-center mb-5">Это бесплатно и ни к чему Вас не обязывает</p>
+				<div class="row">
+					<div class="col-lg-6 text-center">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/question-shkaf.png"
+							class="question-img img-fluid" />
+					</div>
+					<div class="col-lg-6">
+						<div class="row">
+							<div class="col-2">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/question.png" class="img-fluid" />
+							</div>
+							<div class="col-10">
+								<p class="mb-2">Для расчета опишите шкаф-купе своими словами. При возможности прикрепите изображение.
+								</p>
+								<form method="post" action="<?php echo get_template_directory_uri(); ?>/mails/get_calculate.php"
+									enctype="multipart/form-data">
+									<textarea type="text" rows="3" name="mes" class="form-control"
+										placeholder="Например: длина, ширина, глубина, количество дверей, материал дверей, форма, вид шкафа и т.д."
+										style="height: auto;  margin-top: 15px;  margin-bottom: 15px;"></textarea>
+									<p class="input-group custom-file-button">
+										<label class="input-group-text" for="inputGroupFile3">
+											Прикрепить
 										</label>
-										<input type="hidden" id="g-recaptcha-response-message" name="g-recaptcha-response">
-										<button type="submit" class="btn btn-danger" style="width: 100%">Отправить</button>
-									</form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /SECTION ORDER 1 -->
+										<input type="file" name="file[]" class="form-control" style="border: none" id="inputGroupFile3"
+											accept=".jpg,.jpeg,.png,.pdf,.heic" multiple="" />
+									</p>
+
+									<p>
+										<input type="text" name="name" class="form-control" style="margin-top: 15px"
+											placeholder="Ваше Имя" />
+									</p>
+
+									<p>
+										<input type="text" name="tel" id="phone_mask_3" class="form-control telMask"
+											style="margin-top: 15px" placeholder="Ваш телефон" required />
+									</p>
+									<p><input type="email" id="email" name="email" class="form-control" placeholder="Ваш email" required>
+									</p>
+									
+									<label class="form-check-label" for="exampleCheck11">
+										<input  type="checkbox" class="form-check-input" id="exampleCheck11" checked>
+										Я согласен на обработку моих <a href="index.html">персональных данных</a>.
+									</label>
+
+									<input type="hidden" id="g-recaptcha-response-message" name="g-recaptcha-response">
+									<button type="submit" class="btn btn-danger" style="width: 100%">Отправить</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- /SECTION ORDER 1 -->
 
    
 
