@@ -720,7 +720,7 @@ wp_reset_postdata();
 										<?php foreach ($portfolio['images'] as $index => $img_url): ?>
 											<div class="carousel-item <?php echo $index === 0 ? 'active' : ''; ?>" data-bs-interval="999999999">
 												<a href="#" onclick="openGallery(<?php echo $portfolio['start_index'] + $index; ?>); return false;">
-													<div class="single-product-img approximation">
+													<div class="single-product-img approximation position-relative">
 														<img src="<?php echo $img_url; ?>" class="shadow rounded" alt="..." loading="lazy">
 														<div class="magnifier"></div>
 													</div>
@@ -742,7 +742,7 @@ wp_reset_postdata();
 								<!-- Одно изображение без карусели и индикаторов -->
 								<div class="mb-4">
 									<a href="#" onclick="openGallery(<?php echo $portfolio['start_index']; ?>); return false;">
-										<div class="single-product-img approximation">
+										<div class="single-product-img approximation position-relative">
 											<img src="<?php echo $portfolio['images'][0]; ?>" class="shadow rounded" alt="..." loading="lazy">
 											<div class="magnifier"></div>
 										</div>
