@@ -228,11 +228,8 @@
 								</label>
 
 								<input type="hidden" id="g-recaptcha-response-order" name="g-recaptcha-response">
-
-                              <button  type="submit"  class="btn btn-danger"  style="width: 100%">
-                                Отправить
-                              </button>
-                          </form>
+								<button  type="submit"  class="btn btn-danger"  style="width: 100%">Отправить</button>
+							</form>
                         </div>
                     </div>
                 </div>

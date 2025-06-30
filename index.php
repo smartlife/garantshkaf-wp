@@ -119,1030 +119,1022 @@
 	</head>
 	<body>
     
-    <div id="sp-home" class="scroll-points"></div>
-    <section id="main">
-        <div class="parallax-home-section"></div>
-			<!-- <div class="divider-left"></div>
-			<div class="divider-right"></div> -->
-			<!-- style="max-width: 1700px; border-right: 1px solid rgba(153, 153, 153, 0.9); border-left: 1px solid rgba(153, 153, 153, 0.9);" -->
-			<div class="container" id="main-divider">
-				<div class="row row-nav">
-					<div class="col-md-12 d-flex justify-content-end col-nav">
-						<nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block py-0">
-							<div class="container-fluid px-0">
-								<!-- <a class="navbar-brand" href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/logo-dark.svg" class="img-fluid" style="max-width: 225px;"></a> -->
-								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-									<span class="navbar-toggler-icon"></span>
-								</button>
-								<nav class="header-nav-top navbar navbar-expand-lg navbar-light d-none d-lg-block">
-									<div class="container">
-										<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-											<span class="navbar-toggler-icon"></span>
-										</button>
-										<div class="collapse navbar-collapse" id="navbarSupportedContent">
-											<ul class="navbar-nav ms-auto align-items-center top-navbar">
-												<li class="nav-item me-3">
-													<a class="nav-link" href="archive-product-portfolio.html#">
-														<div class="d-flex nav-link-inner">
-															<div class="nav-li-float-left">
-																<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/location-ico.svg" />
+		<div id="sp-home" class="scroll-points"></div>
+		<section id="main">
+			<div class="parallax-home-section"></div>
+				<!-- <div class="divider-left"></div>
+				<div class="divider-right"></div> -->
+				<!-- style="max-width: 1700px; border-right: 1px solid rgba(153, 153, 153, 0.9); border-left: 1px solid rgba(153, 153, 153, 0.9);" -->
+				<div class="container" id="main-divider">
+					<div class="row row-nav">
+						<div class="col-md-12 d-flex justify-content-end col-nav">
+							<nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block py-0">
+								<div class="container-fluid px-0">
+									<!-- <a class="navbar-brand" href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/logo-dark.svg" class="img-fluid" style="max-width: 225px;"></a> -->
+									<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+										<span class="navbar-toggler-icon"></span>
+									</button>
+									<nav class="header-nav-top navbar navbar-expand-lg navbar-light d-none d-lg-block">
+										<div class="container">
+											<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+												<span class="navbar-toggler-icon"></span>
+											</button>
+											<div class="collapse navbar-collapse" id="navbarSupportedContent">
+												<ul class="navbar-nav ms-auto align-items-center top-navbar">
+													<li class="nav-item me-3">
+														<a class="nav-link" href="archive-product-portfolio.html#">
+															<div class="d-flex nav-link-inner">
+																<div class="nav-li-float-left">
+																	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/location-ico.svg" />
+																</div>
+																<div class="nav-li-float-right"><?php echo $address; ?></div>
+																<div style="clear: both"></div>
 															</div>
-															<div class="nav-li-float-right"><?php echo $address; ?></div>
-															<div style="clear: both"></div>
-														</div>
+														</a>
+													</li>
+													<li class="nav-item me-3">
+														<a class="nav-link" href="archive-product-portfolio.html#">
+															<div class="d-flex nav-link-inner">
+																<div class="nav-li-float-left">
+																	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/clock-ico.svg" />
+																</div>
+																<div class="nav-li-float-right">
+																	Пн - Вс <br />с 8:00 до 22:00
+																</div>
+																<div style="clear: both"></div>
+															</div>
+														</a>
+													</li>
+													<li class="nav-item me-3">
+														<a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#callback">
+															<div class="d-flex nav-link-inner">
+																<div class="nav-li-float-left">
+																	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/callback-ico.svg" />
+																</div>
+																<div class="nav-li-float-right">
+																	Обратный звонок
+																</div>
+																<div style="clear: both"></div>
+															</div>
+														</a>
+													</li>
+													<li class="nav-item me-4">
+														<a class="top-menu-tel nav-link"  href="tel:89856445775">
+															<div class="d-flex nav-link-inner">
+																<div class="nav-li-float-left">
+																	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/mobile-phone-ico.svg" />
+																</div>
+																<div class="nav-li-float-right phone-number">
+																	8 (985) 644-57-75
+																</div>
+																<div style="clear: both"></div>
+															</div>
+														</a>
+													</li>
+													<li class="nav-item me-2">
+														<a class="nav-link ico-button" href="https://t.me/+79856445775" target="_blank">
+															<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/telegram-ico.svg" />
+														</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link ico-button" href="https://wa.me/79856445775?web=1&amp;app_absent=1" target="_blank">
+															<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/whatsapp-ico.svg" />
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</nav>
+								</div>
+							</nav>
+						</div>
+
+						<!-- <div class="divider"></div> -->
+						<div class="container">
+							<div class="row row-bottom-nav d-flex">
+								<div class="col-md-12 bottom-nav">
+									<nav class="header-nav-bottom navbar navbar-expand-lg navbar-light header-bottom">
+										<div class="container bottom-container">
+											<a class="navbar-brand" href="#">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/logo.svg" />
+											</a>
+											<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobail-header-collapse" aria-controls="mobail-header-collapse" aria-expanded="false" aria-label="Toggle navigation">
+												<span class="navbar-toggler-icon"></span>
+											</button>
+											<div class="collapse navbar-collapse" id="mobail-header-collapse" aria-expanded="true">
+											<ul  class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0">
+												<li class="nav-item bottom-menu_item">
+													<a class="nav-link bottom_link" href="#sp-home" style="transition: 0.25s">Главная</a>
+												</li>
+												<li class="nav-item d-none d-lg-inline">
+													<span class="nav-link">
+														<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg"/>
+													</span>
+												</li>
+												<li class="nav-item bottom-menu_item item-none">
+													<a class="nav-link bottom_link" href="#sp-video">
+														Видеопрезентация
 													</a>
 												</li>
-												<li class="nav-item me-3">
-													<a class="nav-link" href="archive-product-portfolio.html#">
-														<div class="d-flex nav-link-inner">
-															<div class="nav-li-float-left">
-																<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/clock-ico.svg" />
-															</div>
-															<div class="nav-li-float-right">
-																Пн - Вс <br />с 8:00 до 22:00
-															</div>
-															<div style="clear: both"></div>
-														</div>
+												<li class="nav-item d-lg-inline">
+													<span class="nav-link item-none">
+														<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
+													</span>
+												</li>
+												<li class="nav-item bottom-menu_item">
+													<a class="nav-link bottom_link" href="#sp-portfolio">
+														Наши работы
 													</a>
 												</li>
-												<li class="nav-item me-3">
-													<a href="archive-product-portfolio.html#" class="nav-link" data-bs-toggle="modal" data-bs-target="#callback">
-														<div class="d-flex nav-link-inner">
-															<div class="nav-li-float-left">
-																<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/callback-ico.svg" />
-															</div>
-															<div class="nav-li-float-right">
-																Обратный звонок
-															</div>
-															<div style="clear: both"></div>
-														</div>
+												<li class="nav-item d-none d-lg-inline">
+													<span class="nav-link">
+														<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
+													</span>
+												</li>
+												<li class="nav-item bottom-menu_item">
+													<a class="nav-link bottom_link" href="#sp-about">
+														О нас
 													</a>
 												</li>
-												<li class="nav-item me-4">
-													<a class="top-menu-tel nav-link"  href="tel:89856445775">
-														<div class="d-flex nav-link-inner">
-															<div class="nav-li-float-left">
-																<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/mobile-phone-ico.svg" />
-															</div>
-															<div class="nav-li-float-right phone-number">
-																8 (985) 644-57-75
-															</div>
-															<div style="clear: both"></div>
-														</div>
+												<li class="nav-item d-none d-lg-inline">
+													<span class="nav-link">
+														<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
+													</span>
+												</li>
+												<li class="nav-item bottom-menu_item">
+													<a class="nav-link bottom_link" href="#sp-testimonials">
+														Отзывы
 													</a>
 												</li>
-												<li class="nav-item me-2">
-													<a class="nav-link ico-button" href="https://t.me/+79856445775" target="_blank">
+												<li class="nav-item d-none d-lg-inline">
+													<span class="nav-link">
+														<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
+													</span>
+												</li>
+												<li class="nav-item bottom-menu_item">
+													<a class="nav-link bottom_link" href="#sp-faq">
+														Частые вопросы
+													</a>
+												</li>
+												<li class="nav-item d-none d-lg-inline">
+													<span class="nav-link">
+														<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
+													</span>
+												</li>
+												<li class="nav-item bottom-menu_item">
+													<a class="nav-link bottom_link" href="#sp-kak-zakazat">
+														Как заказать
+													</a>
+												</li>
+												<li class="nav-item d-none d-lg-inline">
+													<span class="nav-link">
+														<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
+													</span>
+												</li>
+												<li class="nav-item bottom-menu_item">
+													<a class="nav-link bottom_link" href="#sp-contacts">
+														Контакты
+													</a>
+												</li>
+												<!-- Mobile menu -->
+												<li class="nav-item d-lg-none mobile-item">
+													<a  class="nav-link active"  href="#" data-bs-toggle="modal" data-bs-target="#measurerModal">
+														Вызов замерщика
+													</a>
+												</li>
+												<li class="nav-item d-lg-none mobile-item">
+													<div>
+														<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/location-ico.svg"  style="width: 10px" class="me-1"/>
+														<span><?php echo $address; ?></span>
+													</div>
+													<a  class="nav-link top-menu-tel pt-1 pb-1"  href="tel:89856445775">
+														8 (985) 644-57-75
+													</a>
+													<div  class="mb-2"  style="font-size: 12px;  font-family: Gilroy-Light;  text-transform: none;">
+														<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/clock-ico.svg"  style="width: 10px; position: relative; top: 3px"  class="me-1 mb-2"/>
+														Ежедневно с 8:00 до 22:00
+													</div>
+												</li>
+												<li class="nav-item d-lg-none pb-4">
+													<a  class="ico-button pe-2"  href="https://wa.me/79856445775?web=1&app_absent=1" >
+														<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/whatsapp-ico.svg"/>
+													</a>
+													<a  class="ico-button pe-0"  href="https://t.me/+79856445775">
 														<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/telegram-ico.svg" />
 													</a>
 												</li>
-												<li class="nav-item">
-													<a class="nav-link ico-button" href="https://wa.me/79856445775?web=1&amp;app_absent=1" target="_blank">
-														<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/whatsapp-ico.svg" />
-													</a>
-												</li>
+												<!-- End mobile menu -->
 											</ul>
 										</div>
 									</div>
 								</nav>
 							</div>
-						</nav>
+						</div>
 					</div>
-
-					<!-- <div class="divider"></div> -->
-					<div class="container">
-						<div class="row row-bottom-nav d-flex">
-							<div class="col-md-12 bottom-nav">
-								<nav class="header-nav-bottom navbar navbar-expand-lg navbar-light header-bottom">
-									<div class="container bottom-container">
-										<a class="navbar-brand" href="#">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/logo.svg" />
-										</a>
-										<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobail-header-collapse" aria-controls="mobail-header-collapse" aria-expanded="false" aria-label="Toggle navigation">
-											<span class="navbar-toggler-icon"></span>
-										</button>
-										<div class="collapse navbar-collapse" id="mobail-header-collapse" aria-expanded="true">
-										<ul  class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0">
-											<li class="nav-item bottom-menu_item">
-												<a class="nav-link bottom_link" href="#sp-home" style="transition: 0.25s">Главная</a>
-											</li>
-											<li class="nav-item d-none d-lg-inline">
-												<span class="nav-link">
-													<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg"/>
-												</span>
-											</li>
-											<li class="nav-item bottom-menu_item item-none">
-												<a class="nav-link bottom_link" href="#sp-video">
-													Видеопрезентация
-												</a>
-											</li>
-											<li class="nav-item d-lg-inline">
-												<span class="nav-link item-none">
-													<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
-												</span>
-											</li>
-											<li class="nav-item bottom-menu_item">
-												<a class="nav-link bottom_link" href="#sp-portfolio">
-													Наши работы
-												</a>
-											</li>
-											<li class="nav-item d-none d-lg-inline">
-												<span class="nav-link">
-													<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
-												</span>
-											</li>
-											<li class="nav-item bottom-menu_item">
-												<a class="nav-link bottom_link" href="#sp-about">
-													О нас
-												</a>
-											</li>
-											<li class="nav-item d-none d-lg-inline">
-												<span class="nav-link">
-													<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
-												</span>
-											</li>
-											<li class="nav-item bottom-menu_item">
-												<a class="nav-link bottom_link" href="#sp-testimonials">
-													Отзывы
-												</a>
-											</li>
-											<li class="nav-item d-none d-lg-inline">
-												<span class="nav-link">
-													<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
-												</span>
-											</li>
-											<li class="nav-item bottom-menu_item">
-												<a class="nav-link bottom_link" href="#sp-faq">
-													Частые вопросы
-												</a>
-											</li>
-											<li class="nav-item d-none d-lg-inline">
-												<span class="nav-link">
-													<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
-												</span>
-											</li>
-											<li class="nav-item bottom-menu_item">
-												<a class="nav-link bottom_link" href="#sp-kak-zakazat">
-													Как заказать
-												</a>
-											</li>
-											<li class="nav-item d-none d-lg-inline">
-												<span class="nav-link">
-													<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
-												</span>
-											</li>
-											<li class="nav-item bottom-menu_item">
-												<a class="nav-link bottom_link" href="#sp-contacts">
-													Контакты
-												</a>
-											</li>
-											<!-- Mobile menu -->
-											<li class="nav-item d-lg-none mobile-item">
-												<a  class="nav-link active"  href="#" data-bs-toggle="modal" data-bs-target="#measurerModal">
-													Вызов замерщика
-												</a>
-											</li>
-											<li class="nav-item d-lg-none mobile-item">
-												<div>
-													<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/location-ico.svg"  style="width: 10px" class="me-1"/>
-													<span><?php echo $address; ?></span>
-												</div>
-												<a  class="nav-link top-menu-tel pt-1 pb-1"  href="tel:89856445775">
-													8 (985) 644-57-75
-												</a>
-												<div  class="mb-2"  style="font-size: 12px;  font-family: Gilroy-Light;  text-transform: none;">
-													<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/clock-ico.svg"  style="width: 10px; position: relative; top: 3px"  class="me-1 mb-2"/>
-													Ежедневно с 8:00 до 22:00
-												</div>
-											</li>
-											<li class="nav-item d-lg-none pb-4">
-												<a  class="ico-button pe-2"  href="https://wa.me/79856445775?web=1&app_absent=1" >
-													<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/whatsapp-ico.svg"/>
-												</a>
-												<a  class="ico-button pe-0"  href="https://t.me/+79856445775">
-													<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/telegram-ico.svg" />
-												</a>
-											</li>
-											<!-- End mobile menu -->
-										</ul>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-7 offset-lg-1">
+							<h1><span><?php echo $product; ?></span> и&nbsp;другая <span>корпусная&nbsp;мебель</span> на&nbsp;заказ от&nbsp;производителя <span><?php echo $location; ?></span></h1>
+							<ul class="main-list">
+								<li>
+									<div class="row">
+										<div class="col-2 col-md-1 offset-md-1">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/check.png" />
+										</div>
+										<div class="col-10 col-md-7">
+											Замер, дизайн-проект, доставка и монтаж — <span>бесплатно!</span>
+										</div>
 									</div>
-								</div>
-							</nav>
+								</li>
+								<li>
+									<div class="row">
+										<div class="col-2 col-md-1 offset-md-1">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/check.png" />
+										</div>
+										<div class="col-10 col-md-8">
+											Беспроцентная <span>рассрочка&nbsp;на&nbsp;год!</span>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="row">
+										<div class="col-2 col-md-1 offset-md-1">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/check.png" />
+										</div>
+										<div class="col-10 col-md-7">
+											Работаем в Москве и Московской области
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-4 px-0">
+							<div class="rasschet">
+								<h2 class="forma">
+									Рассчитаем точную стоимость шкафа за 15 минут!
+									<!-- Хотите сразу рассчитать стоимость Вашего шкафа? -->
+								</h2>
+								<p class="mb-2">
+									Опишите шкаф своими словами. При необходимости прикрепите изображение
+								</p>
+								<form  method="post"  action="<?php echo get_stylesheet_directory_uri(); ?>/mails/get_calculate.php"  enctype="multipart/form-data">
+									<textarea  type="text"  rows="3"  name="mes"  class="form-control"  placeholder="Например: длина, ширина, глубина, количество дверей, материал дверей, форма, вид шкафа и т.д."  style="height: auto; margin-top: 15px; margin-bottom: 15px"></textarea>
+									<p class="input-group custom-file-button">
+										<label class="input-group-text" for="inputGroupFile">Прикрепить</label>
+										<input  type="file"  name="file[]"  class="form-control"  id="inputGroupFile"  accept=".jpg,.jpeg,.png,.pdf,.heic"  multiple />
+									</p>
+									<p>
+										<input  type="text"  name="name"  class="form-control"  style="margin-top: 15px"  placeholder="Ваше Имя"/>
+									</p>
+									<p>
+										<input  type="text"  name="tel"  id="phone_mask_3"  class="form-control telMask"  style="margin-top: 15px"  placeholder="Ваш телефон"  required/>
+									</p>
+
+									<label class="form-check-label" for="exampleCheck11">
+										<input type="checkbox"  class="form-check-input"  id="exampleCheck11"  checked />
+										Я согласен на обработку моих <a href="">персональных данных</a>.
+									</label>
+							
+									<input type="hidden" id="g-recaptcha-response-order-1-home" name="g-recaptcha-response">
+									<button  type="submit"  class="btn btn-danger"  style="width: 100%">
+										Отправить
+									</button>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 offset-lg-1">
-						<h1><span><?php echo $product; ?></span> и&nbsp;другая <span>корпусная&nbsp;мебель</span> на&nbsp;заказ от&nbsp;производителя <span><?php echo $location; ?></span></h1>
-						<ul class="main-list">
-							<li>
-								<div class="row">
-									<div class="col-2 col-md-1 offset-md-1">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/check.png" />
-									</div>
-									<div class="col-10 col-md-7">
-										Замер, дизайн-проект, доставка и монтаж — <span>бесплатно!</span>
-									</div>
+			<header id="sliding-header" class="shadow">
+			  <!-- Header nav bottom -->
+				<nav class="header-nav-bottom navbar navbar-expand-lg navbar-light py-1 py-lg-0">
+					<div class="container">
+						<a class="navbar-brand" href="archive-product-portfolio.html#">
+						  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/logo-dark-theme.svg" />
+						</a>
+						<div class="d-lg-none">
+						  <a  class="top-menu-tel pt-1 pb-0"  style="font-size: 14px"  href="tel:89856445775">
+							8 (985) 644-57-75
+						  </a>
+						  <div style="font-size: 10px;  font-family: Gilroy-Light;  text-transform: none;">
+							<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/clock-ico.svg" style="width: 12px; position: relative; top: -1px"  class="me-1"/>
+							Пн-Вс 8:00-22:00
+						  </div>
+						</div>
+						<button  class="navbar-toggler"  type="button"  data-bs-toggle="collapse"  data-bs-target="#sliding-header-collapse"  aria-controls="sliding-header-collapse"  aria-expanded="false"  aria-label="Toggle navigation">
+						  <span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="sliding-header-collapse">
+							<ul class="navbar-nav ms-auto mb-lg-0">
+							  <li class="nav-item bottom-menu_item">
+								<a  class="nav-link bottom_link"  href="#sp-home" style="transition: 0.25s">
+								  Главная
+								</a>
+							  </li>
+							  <li class="nav-item d-none d-lg-inline">
+								<span class="nav-link">
+								  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
+								</span>
+							  </li>
+							  <li class="nav-item bottom-menu_item item-none">
+								<a class="nav-link bottom_link" href="#sp-video">
+								  Видеопрезентация
+								</a>
+							  </li>
+							  <li class="nav-item d-lg-inline">
+								<span class="nav-link item-none">
+								  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
+								</span>
+							  </li>
+							  <li class="nav-item bottom-menu_item">
+								<a class="nav-link bottom_link" href="#sp-portfolio">
+								  Наши работы
+								</a>
+							  </li>
+							  <li class="nav-item d-none d-lg-inline">
+								<span class="nav-link">
+								  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
+								</span>
+							  </li>
+							  <li class="nav-item bottom-menu_item">
+								<a class="nav-link bottom_link" href="#sp-about"> 
+								  О нас
+								</a>
+							  </li>
+							  <li class="nav-item d-none d-lg-inline">
+								<span class="nav-link">
+								  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
+								</span>
+							  </li>
+							  <li class="nav-item bottom-menu_item">
+								<a class="nav-link bottom_link" href="#sp-testimonials">Отзывы</a>
+							  </li>
+							  <li class="nav-item d-none d-lg-inline">
+								<span class="nav-link">
+								  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
+								</span>
+							  </li>
+							  <li class="nav-item bottom-menu_item">
+								<a class="nav-link bottom_link" href="#sp-faq">
+								  Частые вопросы
+								  </a>
+							  </li>
+							  <li class="nav-item d-none d-lg-inline">
+								<span class="nav-link">
+								  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
+								</span>
+							  </li>
+							  <li class="nav-item bottom-menu_item">
+								<a class="nav-link bottom_link" href="#sp-kak-zakazat">
+								  Как заказать
+								</a>
+							  </li>
+							  <li class="nav-item d-none d-lg-inline">
+								<span class="nav-link">
+								  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
+								</span>
+							  </li>
+							  <li class="nav-item bottom-menu_item">
+								<a class="nav-link bottom_link" href="#sp-contacts">
+								  Контакты
+								</a>
+							  </li>
+							  <!-- Mobile menu -->
+
+							  <li class="nav-item d-lg-none mobile-item">
+								<a  class="nav-link active modal-link"  href="#"  data-bs-toggle="modal"  data-bs-target="#measurerModal">
+								  Вызов замерщика
+								</a>
+							  </li>
+							  <li  class="nav-item d-lg-none mobile-item mobile-schedule mb-md-2">
+								<!-- <div style="font-size: 12px;
+							  font-family: HelveticaNeueCyr-Light;
+							  text-transform: none;"> -->
+								<div class="location-block">
+								  <img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/location-ico.svg"  style="width: 10px" class="me-1"/>
+								  <span><?php echo $address; ?></span>
 								</div>
-							</li>
-							<li>
-								<div class="row">
-									<div class="col-2 col-md-1 offset-md-1">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/check.png" />
-									</div>
-									<div class="col-10 col-md-8">
-										Беспроцентная <span>рассрочка&nbsp;на&nbsp;год!</span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="row">
-									<div class="col-2 col-md-1 offset-md-1">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/check.png" />
-									</div>
-									<div class="col-10 col-md-7">
-										Работаем в Москве и Московской области
-									</div>
-								</div>
-							</li>
-						</ul>
-                    </div>
-                    <div class="col-lg-4 px-0">
-                        <div class="rasschet">
-							<h2 class="forma">
-								Рассчитаем точную стоимость шкафа за 15 минут!
-								<!-- Хотите сразу рассчитать стоимость Вашего шкафа? -->
-							</h2>
-							<p class="mb-2">
-								Опишите шкаф своими словами. При необходимости прикрепите изображение
-							</p>
-							<form  method="post"  action="<?php echo get_stylesheet_directory_uri(); ?>/mails/get_calculate.php"  enctype="multipart/form-data">
-								<textarea  type="text"  rows="3"  name="mes"  class="form-control"  placeholder="Например: длина, ширина, глубина, количество дверей, материал дверей, форма, вид шкафа и т.д."  style="height: auto; margin-top: 15px; margin-bottom: 15px"></textarea>
-								<p class="input-group custom-file-button">
-									<label class="input-group-text" for="inputGroupFile">Прикрепить</label>
-									<input  type="file"  name="file[]"  class="form-control"  id="inputGroupFile"  accept=".jpg,.jpeg,.png,.pdf,.heic"  multiple />
-								</p>
-								<p>
-									<input  type="text"  name="name"  class="form-control"  style="margin-top: 15px"  placeholder="Ваше Имя"/>
-								</p>
-								<p>
-									<input  type="text"  name="tel"  id="phone_mask_3"  class="form-control telMask"  style="margin-top: 15px"  placeholder="Ваш телефон"  required/>
-								</p>
-
-								<label class="form-check-label" for="exampleCheck11">
-									<input type="checkbox"  class="form-check-input"  id="exampleCheck11"  checked />
-									Я согласен на обработку моих <a href="">персональных данных</a>.
-								</label>
-						
-								<input type="hidden" id="g-recaptcha-response-order" name="g-recaptcha-response">
-
-								<button  type="submit"  class="btn btn-danger"  style="width: 100%">
-									Отправить
-								</button>
-							</form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <header id="sliding-header" class="shadow">
-          <!-- Header nav bottom -->
-            <nav class="header-nav-bottom navbar navbar-expand-lg navbar-light py-1 py-lg-0">
-                <div class="container">
-                    <a class="navbar-brand" href="archive-product-portfolio.html#">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/logo-dark-theme.svg" />
-                    </a>
-                    <div class="d-lg-none">
-                      <a  class="top-menu-tel pt-1 pb-0"  style="font-size: 14px"  href="tel:89856445775">
-                        8 (985) 644-57-75
-                      </a>
-                      <div style="font-size: 10px;  font-family: Gilroy-Light;  text-transform: none;">
-                        <img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/clock-ico.svg" style="width: 12px; position: relative; top: -1px"  class="me-1"/>
-                        Пн-Вс 8:00-22:00
-                      </div>
-                    </div>
-                    <button  class="navbar-toggler"  type="button"  data-bs-toggle="collapse"  data-bs-target="#sliding-header-collapse"  aria-controls="sliding-header-collapse"  aria-expanded="false"  aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="sliding-header-collapse">
-                        <ul class="navbar-nav ms-auto mb-lg-0">
-                          <li class="nav-item bottom-menu_item">
-                            <a  class="nav-link bottom_link"  href="#sp-home" style="transition: 0.25s">
-                              Главная
-                            </a>
-                          </li>
-                          <li class="nav-item d-none d-lg-inline">
-                            <span class="nav-link">
-                              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
-                            </span>
-                          </li>
-                          <li class="nav-item bottom-menu_item item-none">
-                            <a class="nav-link bottom_link" href="#sp-video">
-                              Видеопрезентация
-                            </a>
-                          </li>
-                          <li class="nav-item d-lg-inline">
-                            <span class="nav-link item-none">
-                              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
-                            </span>
-                          </li>
-                          <li class="nav-item bottom-menu_item">
-                            <a class="nav-link bottom_link" href="#sp-portfolio">
-                              Наши работы
-                            </a>
-                          </li>
-                          <li class="nav-item d-none d-lg-inline">
-                            <span class="nav-link">
-                              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
-                            </span>
-                          </li>
-                          <li class="nav-item bottom-menu_item">
-                            <a class="nav-link bottom_link" href="#sp-about"> 
-                              О нас
-                            </a>
-                          </li>
-                          <li class="nav-item d-none d-lg-inline">
-                            <span class="nav-link">
-                              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
-                            </span>
-                          </li>
-                          <li class="nav-item bottom-menu_item">
-                            <a class="nav-link bottom_link" href="#sp-testimonials">Отзывы</a>
-                          </li>
-                          <li class="nav-item d-none d-lg-inline">
-                            <span class="nav-link">
-                              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
-                            </span>
-                          </li>
-                          <li class="nav-item bottom-menu_item">
-                            <a class="nav-link bottom_link" href="#sp-faq">
-                              Частые вопросы
-                              </a>
-                          </li>
-                          <li class="nav-item d-none d-lg-inline">
-                            <span class="nav-link">
-                              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
-                            </span>
-                          </li>
-                          <li class="nav-item bottom-menu_item">
-                            <a class="nav-link bottom_link" href="#sp-kak-zakazat">
-                              Как заказать
-                            </a>
-                          </li>
-                          <li class="nav-item d-none d-lg-inline">
-                            <span class="nav-link">
-                              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/menu-decoration.svg" />
-                            </span>
-                          </li>
-                          <li class="nav-item bottom-menu_item">
-                            <a class="nav-link bottom_link" href="#sp-contacts">
-                              Контакты
-                            </a>
-                          </li>
-                          <!-- Mobile menu -->
-
-                          <li class="nav-item d-lg-none mobile-item">
-                            <a  class="nav-link active modal-link"  href="#"  data-bs-toggle="modal"  data-bs-target="#measurerModal">
-                              Вызов замерщика
-                            </a>
-                          </li>
-                          <li  class="nav-item d-lg-none mobile-item mobile-schedule mb-md-2">
-                            <!-- <div style="font-size: 12px;
-                          font-family: HelveticaNeueCyr-Light;
-                          text-transform: none;"> -->
-                            <div class="location-block">
-                              <img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/location-ico.svg"  style="width: 10px" class="me-1"/>
-                              <span><?php echo $address; ?></span>
-                            </div>
-                            <a  class="nav-link top-menu-tel pt-1 pb-1"  href="tel:89856445775">
-                              8 (985) 644-57-75
-                            </a>
-                            <img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/clock-ico.svg"  style="width: 10px; position: relative; top: 2px"  class="me-1 mb-2"/>
-                            Ежедневно с 8:00 до 22:00
-                          </li>
-                          <li class="nav-item d-lg-none pt-2 pb-4">
-                            <a class="ico-button pe-2 text-decoration-none"  href="https://wa.me/79856445775?web=1&app_absent=1">
-                              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/whatsapp-ico.svg" />
-                            </a>
-                            <a  class="ico-button pe-0 text-decoration-none"  href="https://t.me/+79856445775">
-                              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/telegram-ico.svg" />
-                            </a>
-                          </li>
-                          <!-- End mobile menu -->
-                        </ul>
-                  </div>
-                </div>
-            </nav>
-          <!-- /Header nav bottom -->
-        </header>
-    </section>
+								<a  class="nav-link top-menu-tel pt-1 pb-1"  href="tel:89856445775">
+								  8 (985) 644-57-75
+								</a>
+								<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/clock-ico.svg"  style="width: 10px; position: relative; top: 2px"  class="me-1 mb-2"/>
+								Ежедневно с 8:00 до 22:00
+							  </li>
+							  <li class="nav-item d-lg-none pt-2 pb-4">
+								<a class="ico-button pe-2 text-decoration-none"  href="https://wa.me/79856445775?web=1&app_absent=1">
+								  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/whatsapp-ico.svg" />
+								</a>
+								<a  class="ico-button pe-0 text-decoration-none"  href="https://t.me/+79856445775">
+								  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/telegram-ico.svg" />
+								</a>
+							  </li>
+							  <!-- End mobile menu -->
+							</ul>
+					  </div>
+					</div>
+				</nav>
+			  <!-- /Header nav bottom -->
+			</header>
+		</section>
 
 
-
-    <!-- Video section -->
-    <div id="sp-video" class="scroll-points"></div>
-    <section id="video">
-        <div id="video-container" class="container">
-            <div class="row">
-                <div class="col-md-10 offset-md-1">
-                  <h2><span>01</span> / Посмотрите нашу видеопрезентацию</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div style="position: relative">
-                        <video  id="video-player"  class="rounded"  style="width: 100%; overflow: hidden"  playsinline="playsinline"  loop="loop" poster="https://garantshkaf.ru/wp-content/themes/garantshkaf-3/img/video-poster.jpg">
-							<!-- muted="muted" autoplay="autoplay" -->
-							<!-- <source src="header-bg.ogv" type='video/ogg; codecs="theora, vorbis"'> -->
-							<source  src="<?php echo get_stylesheet_directory_uri(); ?>/videos/video.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
-							<!-- <source src="header-bg.webm" type='video/webm; codecs="vp8, vorbis"'> -->
-                        </video>
-                        <div id="play-circle">
-							<div id="play" onclick="play();"></div>
-                        </div>
-                        <div id="stop-circle" onclick="pause();">
-							<div>
-								<i class="far fa-stop-circle"></i>
+		<!-- Video section -->
+		<div id="sp-video" class="scroll-points"></div>
+		<section id="video">
+			<div id="video-container" class="container">
+				<div class="row">
+					<div class="col-md-10 offset-md-1">
+					  <h2><span>01</span> / Посмотрите нашу видеопрезентацию</h2>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-8">
+						<div style="position: relative">
+							<video  id="video-player"  class="rounded"  style="width: 100%; overflow: hidden"  playsinline="playsinline"  loop="loop" poster="https://garantshkaf.ru/wp-content/themes/garantshkaf-3/img/video-poster.jpg">
+								<!-- muted="muted" autoplay="autoplay" -->
+								<!-- <source src="header-bg.ogv" type='video/ogg; codecs="theora, vorbis"'> -->
+								<source  src="<?php echo get_stylesheet_directory_uri(); ?>/videos/video.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
+								<!-- <source src="header-bg.webm" type='video/webm; codecs="vp8, vorbis"'> -->
+							</video>
+							<div id="play-circle">
+								<div id="play" onclick="play();"></div>
 							</div>
-                        </div>
-                    </div>
+							<div id="stop-circle" onclick="pause();">
+								<div>
+									<i class="far fa-stop-circle"></i>
+								</div>
+							</div>
+						</div>
 
-					<script>
-						function play() {
-							document.getElementById("video-player").play();
-							document.getElementById("play-circle").style.display = "none";
-							document.getElementById("stop-circle").style.display = "block";
-						}
+						<script>
+							function play() {
+								document.getElementById("video-player").play();
+								document.getElementById("play-circle").style.display = "none";
+								document.getElementById("stop-circle").style.display = "block";
+							}
 
-						function pause() {
-							document.getElementById("video-player").pause();
-							document.getElementById("stop-circle").style.display = "none";
-							document.getElementById("play-circle").style.display = "block";
-						}
-					</script>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End video section -->
+							function pause() {
+								document.getElementById("video-player").pause();
+								document.getElementById("stop-circle").style.display = "none";
+								document.getElementById("play-circle").style.display = "block";
+							}
+						</script>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End video section -->
 
     
 	
-	<!-- Portfolio section -->
-    <div id="sp-portfolio" class="scroll-points"></div>
-    <section id="portfolio">
-        <div class="container" style="max-width: 1700px;  border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-					<h2><span>02</span> / Наши последние работы</h2>
+		<!-- Portfolio section -->
+		<div id="sp-portfolio" class="scroll-points"></div>
+		<section id="portfolio">
+			<div class="container" style="max-width: 1700px;  border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
+				<div class="row justify-content-center">
+					<div class="col-md-10">
+						<h2><span>02</span> / Наши последние работы</h2>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-9">	
+						<div class="row justify-content-around">
+							<?php
+								$query = new WP_Query( array(
+									'post_type' => 'closet',
+									'order'		=> 'ASC'
+								) );
+								
+								while ( $query->have_posts() ) { $query->the_post();
+									$post_id = get_the_id(); ?>
+									
+									<div class="col-md-5 mb-5">
+										<h3 class="mb-3"><?php the_title(); ?></h3>
+										<div id="carousel-<?php echo $post_id; ?>" class="carousel slide mb-3" data-bs-ride="false"  data-bs-interval="false">
+											<div class="carousel-inner shadow rounded">
+												<?php
+													$images = get_post_gallery_images();
+													$count = 0;
+													foreach ( $images as $image ) {
+														$image_id = attachment_url_to_postid( $image ); ?>
+														<div class="carousel-item<?php if ( $count == 0 ) echo ' active'; ?>">
+															<a onClick="galleryOn('gallery-<?php echo $post->ID; ?>','img-<?php echo $post->ID; ?>-<?php echo $count; ?>');">	
+																<div class="light">
+																	<img data-src="<?php echo $image; ?>" class="d-block w-100 lazyload" loading="lazy" alt="...">
+																	<div class="magnifier"></div>
+																</div>
+															</a>
+														</div>
+														<?php
+															$count = $count + 1;
+													} ?>
+											</div>
+											
+											<button class="carousel-control-prev" type="button" data-bs-target="#carousel-<?php echo $post_id; ?>"  data-bs-slide="prev">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/arrow-left.svg">
+											</button>
+											<button class="carousel-control-next" type="button" data-bs-target="#carousel-<?php echo $post_id; ?>"  data-bs-slide="next">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/arrow-right.svg">
+											</button>
+										</div>
+										<p class="product-description"><?php the_excerpt(); ?></p>
+									</div>
+								<?php }
+							?>
+						</div>
+					</div>	
 				</div>
 			</div>
-			<div class="row justify-content-center">
-                <div class="col-md-9">	
-					<div class="row justify-content-around">
-						<?php
-							$query = new WP_Query( array(
-								'post_type' => 'closet',
-								'order'		=> 'ASC'
-							) );
-							
-							while ( $query->have_posts() ) { $query->the_post();
-								$post_id = get_the_id(); ?>
-								
-								<div class="col-md-5 mb-5">
-									<h3 class="mb-3"><?php the_title(); ?></h3>
-									<div id="carousel-<?php echo $post_id; ?>" class="carousel slide mb-3" data-bs-ride="false"  data-bs-interval="false">
-										<div class="carousel-inner shadow rounded">
-											<?php
-												$images = get_post_gallery_images();
-												$count = 0;
-												foreach ( $images as $image ) {
-													$image_id = attachment_url_to_postid( $image ); ?>
-													<div class="carousel-item<?php if ( $count == 0 ) echo ' active'; ?>">
-														<a onClick="galleryOn('gallery-<?php echo $post->ID; ?>','img-<?php echo $post->ID; ?>-<?php echo $count; ?>');">	
-															<div class="light">
-																<img data-src="<?php echo $image; ?>" class="d-block w-100 lazyload" loading="lazy" alt="...">
-																<div class="magnifier"></div>
-															</div>
-														</a>
-													</div>
-													<?php
-														$count = $count + 1;
-												} ?>
-										</div>
-										
-										<button class="carousel-control-prev" type="button" data-bs-target="#carousel-<?php echo $post_id; ?>"  data-bs-slide="prev">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/arrow-left.svg">
-										</button>
-										<button class="carousel-control-next" type="button" data-bs-target="#carousel-<?php echo $post_id; ?>"  data-bs-slide="next">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/arrow-right.svg">
-										</button>
-									</div>
-									<p class="product-description"><?php the_excerpt(); ?></p>
-								</div>
-							<?php }
-						?>
+		</section>
+
+   
+		<!--uznat stoimost shkafa-->
+		<section id="uznat-stoimost" class="pt-5 pt-md-0">
+			<div class="container" style="max-width: 1700px;  border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
+				<div class="row">
+					<div class="col-lg-6 offset-lg-3">
+					  <h3 class="text-center">
+						Хотите узнать точную стоимость Вашего шкафа?
+					  </h3>
 					</div>
-				</div>	
+				</div>
+				<div class="row">
+					<div class="col-md-8 offset-md-2">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="row">
+									<div class="col-2">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/question.png" class="img-fluid" />
+									</div>
+									<div class="col-10">
+										<p class="mb-2">Рассчитаем точную стоимость за 15 минут! Опишите шкаф своими словами. При необходимости прикрепите изображение</p>
+										<form  method="post"  action="<?php echo get_stylesheet_directory_uri(); ?>/mails/get_calculate.php" enctype="multipart/form-data">
+											<textarea  type="text"  rows="3"  name="mes"  class="form-control"  placeholder="Например: длина, ширина, глубина, количество дверей, материал дверей, форма, вид шкафа и т.д." style="height: auto;  margin-top: 15px;  margin-bottom: 15px;"></textarea>
+											<p class="input-group custom-file-button">
+												<label class="input-group-text" for="inputGroupFile3">Прикрепить</label>
+												<input  type="file"  name="file[]"  class="form-control"  style="border: none"  id="inputGroupFile3"  accept=".jpg,.jpeg,.png,.pdf,.heic"  multiple=""/>
+											</p>
+											<p>
+												<input  type="text"   name="name"  class="form-control"  style="margin-top: 15px"  placeholder="Ваше Имя"/>
+											</p>
+											<p>
+												<input  type="text"  name="tel" id="phone_mask_3"  class="form-control telMask"  style="margin-top: 15px"  placeholder="Ваш телефон"  required/>
+											</p>
+											<label class="form-check-label" for="exampleCheck11">
+												<input  type="checkbox"  class="form-check-input"  id="exampleCheck11" checked />
+													Я согласен на обработку моих <a href="index.html">персональных данных</a>.
+											</label>
+
+											<input type="hidden" id="g-recaptcha-response-order-2" name="g-recaptcha-response">
+											<button  type="submit"  class="btn btn-danger"  style="width: 100%">
+												Отправить
+											</button>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 text-center">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/question-shkaf.png"  class="question-img img-fluid"/>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-        </div>
-    </section>
-
-   
-	<!--uznat stoimost shkafa-->
-    <section id="uznat-stoimost" class="pt-5 pt-md-0">
-        <div class="container" style="max-width: 1700px;  border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                  <h3 class="text-center">
-                    Хотите узнать точную стоимость Вашего шкафа?
-                  </h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-2">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/question.png" class="img-fluid" />
-                                </div>
-                                <div class="col-10">
-									<p class="mb-2">Рассчитаем точную стоимость за 15 минут! Опишите шкаф своими словами. При необходимости прикрепите изображение</p>
-									<form  method="post"  action="<?php echo get_stylesheet_directory_uri(); ?>/mails/get_calculate.php" enctype="multipart/form-data">
-										<textarea  type="text"  rows="3"  name="mes"  class="form-control"  placeholder="Например: длина, ширина, глубина, количество дверей, материал дверей, форма, вид шкафа и т.д." style="height: auto;  margin-top: 15px;  margin-bottom: 15px;"></textarea>
-										<p class="input-group custom-file-button">
-											<label class="input-group-text" for="inputGroupFile3">Прикрепить</label>
-											<input  type="file"  name="file[]"  class="form-control"  style="border: none"  id="inputGroupFile3"  accept=".jpg,.jpeg,.png,.pdf,.heic"  multiple=""/>
-										</p>
-										<p>
-											<input  type="text"   name="name"  class="form-control"  style="margin-top: 15px"  placeholder="Ваше Имя"/>
-										</p>
-										<p>
-											<input  type="text"  name="tel" id="phone_mask_3"  class="form-control telMask"  style="margin-top: 15px"  placeholder="Ваш телефон"  required/>
-										</p>
-										<label class="form-check-label" for="exampleCheck11">
-											<input  type="checkbox"  class="form-check-input"  id="exampleCheck11" checked />
-												Я согласен на обработку моих <a href="index.html">персональных данных</a>.
-										</label>
-
-										<input type="hidden" id="g-recaptcha-response-message" name="g-recaptcha-response">
-
-										<button  type="submit"  class="btn btn-danger"  style="width: 100%">
-											Отправить
-										</button>
-									</form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 text-center">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/question-shkaf.png"  class="question-img img-fluid"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--uznat stoimost shkafa-->
-
-    <!--About-->
-    <div id="sp-about" class="scroll-points"></div>
-    <section id="about">
-        <div  class="container" style="max-width: 1700px;  border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
-            <div class="row">
-                <div class="col-lg-4 offset-lg-1">
-					<h2><span>03</span> / Узнайте о нас</h2>
-                </div>
-                <div class="col-lg-7">
-					<h3>ГАРАНТШКАФ</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <div class="row">
-                        <div class="col-lg-6 order-2 order-lg-1">
-							<p>Мебельная фабрика <strong>"ГарантШкаф"</strong> вот уже 14 лет изготавливает шкафы-купе и корпусную мебель. За это
-                            время мы научились разбираться в качестве материалов и технологий, применяя в своей работе только лучшие из них. Поэтому мы производим прочную и функциональную мебель по выгодным ценам.</p>
-							<p>Мы работаем по индивидуальным эскизам, учитываем особенности помещений, используем современные и качественные материалы, подбирая их исходя из дизайна Вашего помещения.</p>
-							<p>Количество благодарных клиентов непрестанно растет, как и наша репутация, а положительные отзывы о нас множатся. На то есть несколько причин:</p>
-                        </div>
-                        <div class="col-lg-6 text-right order-1 order-lg-2">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about.jpg" class="img-fluid garantshaf" />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4>За что нас выбирают:</h4>
-                            <div class="row">
-                                <div class="col-lg-5">
-                                    <div class="row">
-                                        <div class="col-3 offset-md-1">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/proizvodstvo.png" class="img-fluid" />
-                                        </div>
-                                        <div class="col-8">
-											<h5>Свое <br />производство</h5>
-                                        </div>
-                                        <div class="col text-center preimushestvo">
-											<p>Это позволяет нам:</p>
-											<ul>
-												<li>
-													<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/list-ico.png" class="" />
-													держать конкурентные цены;
-												</li>
-												<li>
-													<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/list-ico.png" class="" />
-													контролировать качество продукции;
-												</li>
-												<li>
-													<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/list-ico.png" class="" />
-													контролировать сроки производства и установки шкафов.
-												</li>
-											</ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 offset-lg-2">
-                                    <div class="row">
-                                        <div class="col-3 offset-md-1">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/otnoshenie.png" class="img-fluid" />
-                                        </div>
-                                        <div class="col-8">
-											<h5>Отношение <br />к клиентам</h5>
-                                        </div>
-                                        <div class="col text-center preimushestvo">
-											<p>Начиная с первого контакта с нашими клиентами мы стараемся выяснить их пожелания, предпочтения и подсказать лучшие, на наш взгляд, решения. Мы не давим на клиентов, не навязывать купить у нас то, что клиенту не нравится или не хочется по каким то причинам.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 offset-lg-3">
-                                    <div class="row">
-                                        <div class="col-3 offset-md-1">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/garantii.png" class="img-fluid" />
-                                        </div>
-                                        <div class="col-8">
-											<h5>Гарантия и <br />репутация</h5>
-                                        </div>
-                                        <div class="col text-center preimushestvo last-element">
-											<p>Наша фабрика непрерывно работает с 2011 года по адресу: МО, гор. Лобня, ул. Промышленная, д. 4Д.</p>
-											<p>Мы не заманиваем наших клиентов акциями и ценами ниже себестоимости. Мы делаем свою работу по совести и готовы гарантировать качество по договору.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--About-->
+		</section>
+		<!--uznat stoimost shkafa-->
 
 
-
-    <!-- Testimonials section -->
-    <div id="sp-testimonials" class="scroll-points"></div>
-    <section id="reviews">
-        <div  class="container"  style="max-width: 1700px;  border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
-            <div class="row">
-                <div class="col-md-10 offset-md-1">
-					<h2><span>04</span> / прочтите отзывы наших клиентов</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <div id="carouselTestimonials"  class="carousel slide"  data-bs-ride="carousel" data-bs-interval="5555">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<div class="row justify-content-center">
-									<div class="col-md-3">
-										<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/testimonials/testimonial-1.jpg"  class="d-block w-100 rounded mb-3 mb-md-0"  alt="..."/>
+		<!--About-->
+		<div id="sp-about" class="scroll-points"></div>
+		<section id="about">
+			<div  class="container" style="max-width: 1700px;  border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
+				<div class="row">
+					<div class="col-lg-4 offset-lg-1">
+						<h2><span>03</span> / Узнайте о нас</h2>
+					</div>
+					<div class="col-lg-7">
+						<h3>ГАРАНТШКАФ</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 offset-md-2">
+						<div class="row">
+							<div class="col-lg-6 order-2 order-lg-1">
+								<p>Мебельная фабрика <strong>"ГарантШкаф"</strong> вот уже 14 лет изготавливает шкафы-купе и корпусную мебель. За это
+								время мы научились разбираться в качестве материалов и технологий, применяя в своей работе только лучшие из них. Поэтому мы производим прочную и функциональную мебель по выгодным ценам.</p>
+								<p>Мы работаем по индивидуальным эскизам, учитываем особенности помещений, используем современные и качественные материалы, подбирая их исходя из дизайна Вашего помещения.</p>
+								<p>Количество благодарных клиентов непрестанно растет, как и наша репутация, а положительные отзывы о нас множатся. На то есть несколько причин:</p>
+							</div>
+							<div class="col-lg-6 text-right order-1 order-lg-2">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about.jpg" class="img-fluid garantshaf" />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<h4>За что нас выбирают:</h4>
+								<div class="row">
+									<div class="col-lg-5">
+										<div class="row">
+											<div class="col-3 offset-md-1">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/proizvodstvo.png" class="img-fluid" />
+											</div>
+											<div class="col-8">
+												<h5>Свое <br />производство</h5>
+											</div>
+											<div class="col text-center preimushestvo">
+												<p>Это позволяет нам:</p>
+												<ul>
+													<li>
+														<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/list-ico.png" class="" />
+														держать конкурентные цены;
+													</li>
+													<li>
+														<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/list-ico.png" class="" />
+														контролировать качество продукции;
+													</li>
+													<li>
+														<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/list-ico.png" class="" />
+														контролировать сроки производства и установки шкафов.
+													</li>
+												</ul>
+											</div>
+										</div>
 									</div>
-									<div class="col-md-6">
-										<h3>Ольга, Москва</h3>
-										<p class="mt-0">
-											<i class="fas fa-quote-left text-secondary me-2"></i>
-											<i>В наше время шкаф-купе - это один из самых главных предметов мебели в доме и очень хочется, чтобы он был вместительным, функциональным, красивым и недорогим. Я долго искала вариант, который бы меня устроил, среди готовых не встроенных шкафов, но получалось слишком дорого. Почему-то я была уверена, что встроенный будет стоить еще дороже, оказалось, что наоборот. На тот момент в проекте был только шкаф, в отношении остальной мебели не было даже наметок по цвету и дизайну, именно по этой причине делали шкаф 2-цветным, что в будущем позволит подобрать мебель уже 2-х цветов. Уже после установки поняли, что 1-цветный вариант смотрелся бы очень громоздко, т.к. ширина шкафов 60 см и размер угла 240*260 см (комната 16 кв.м).</i>
-											<i class="fas fa-quote-right text-secondary ms-2"></i>
-										</p>
-										<a  href="<?php echo get_stylesheet_directory_uri(); ?>/img/testimonials/testimonial-1-1.jpg" target="_blank">Оригинал отзыва</a>
+									<div class="col-lg-5 offset-lg-2">
+										<div class="row">
+											<div class="col-3 offset-md-1">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/otnoshenie.png" class="img-fluid" />
+											</div>
+											<div class="col-8">
+												<h5>Отношение <br />к клиентам</h5>
+											</div>
+											<div class="col text-center preimushestvo">
+												<p>Начиная с первого контакта с нашими клиентами мы стараемся выяснить их пожелания, предпочтения и подсказать лучшие, на наш взгляд, решения. Мы не давим на клиентов, не навязывать купить у нас то, что клиенту не нравится или не хочется по каким то причинам.</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 offset-lg-3">
+										<div class="row">
+											<div class="col-3 offset-md-1">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/garantii.png" class="img-fluid" />
+											</div>
+											<div class="col-8">
+												<h5>Гарантия и <br />репутация</h5>
+											</div>
+											<div class="col text-center preimushestvo last-element">
+												<p>Наша фабрика непрерывно работает с 2011 года по адресу: МО, гор. Лобня, ул. Промышленная, д. 4Д.</p>
+												<p>Мы не заманиваем наших клиентов акциями и ценами ниже себестоимости. Мы делаем свою работу по совести и готовы гарантировать качество по договору.</p>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="carousel-item">
-								<div class="row justify-content-center">
-									<div class="col-md-3">
-										<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/testimonials/testimonial-2.jpg"  class="d-block w-100 rounded mb-3 mb-md-0" alt="..."/>
-									</div>
-									<div class="col-md-6">
-										<h3>Маргарита, Москва</h3>
-										<p class="mt-0">
-											<i class="fas fa-quote-left text-secondary me-2"></i>
-											<i>Мы заказали пару месяцев назад в детскую комнату шкаф-купе. Комната маленькая (9 квадратов) и нам не позволительно тратить место на покупные низкие шкафы. Наша цель занять все место до потолка. К нам пришел мастер от фирмы "ГарантШкаф", который хорошо разбирается в этом вопросе и посоветовал, как сделать лучше. После того как мы выдвинули наши пожелания, он предоставил нам проект. Чтобы мы визуально в компьютере могли увидеть свой шкаф. После этого мы выбрали цвет, фурнитуру. Шкаф  получился большой вместительный. Большой плюс, что двери раздвигаются, а не открываются, как раньше, это большое экономии места. Нам сделали шуфляды выдвижные с автодоводом - очень удобно.</i>
-											<i class="fas fa-quote-right text-secondary ms-2"></i>
-										</p>
-										<a href="<?php echo get_stylesheet_directory_uri(); ?>/img/testimonials/testimonial-2-2.jpg"  target="_blank">Оригинал отзыва</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--About-->
+
+
+		<!-- Testimonials section -->
+		<div id="sp-testimonials" class="scroll-points"></div>
+		<section id="reviews">
+			<div  class="container"  style="max-width: 1700px;  border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
+				<div class="row">
+					<div class="col-md-10 offset-md-1">
+						<h2><span>04</span> / прочтите отзывы наших клиентов</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 offset-md-2">
+						<div id="carouselTestimonials"  class="carousel slide"  data-bs-ride="carousel" data-bs-interval="5555">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="row justify-content-center">
+										<div class="col-md-3">
+											<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/testimonials/testimonial-1.jpg"  class="d-block w-100 rounded mb-3 mb-md-0"  alt="..."/>
+										</div>
+										<div class="col-md-6">
+											<h3>Ольга, Москва</h3>
+											<p class="mt-0">
+												<i class="fas fa-quote-left text-secondary me-2"></i>
+												<i>В наше время шкаф-купе - это один из самых главных предметов мебели в доме и очень хочется, чтобы он был вместительным, функциональным, красивым и недорогим. Я долго искала вариант, который бы меня устроил, среди готовых не встроенных шкафов, но получалось слишком дорого. Почему-то я была уверена, что встроенный будет стоить еще дороже, оказалось, что наоборот. На тот момент в проекте был только шкаф, в отношении остальной мебели не было даже наметок по цвету и дизайну, именно по этой причине делали шкаф 2-цветным, что в будущем позволит подобрать мебель уже 2-х цветов. Уже после установки поняли, что 1-цветный вариант смотрелся бы очень громоздко, т.к. ширина шкафов 60 см и размер угла 240*260 см (комната 16 кв.м).</i>
+												<i class="fas fa-quote-right text-secondary ms-2"></i>
+											</p>
+											<a  href="<?php echo get_stylesheet_directory_uri(); ?>/img/testimonials/testimonial-1-1.jpg" target="_blank">Оригинал отзыва</a>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="carousel-item">
-								<div class="row justify-content-center">
-									<div class="col-md-3">
-										<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/testimonials/testimonial-3.jpg"  class="d-block w-100 rounded mb-3 mb-md-0" alt="..."/>
-									</div>
-									<div class="col-md-6">
-										<h3>Иван, Одинцово</h3>
-										<p class="mt-0">
-											<i class="fas fa-quote-left text-secondary me-2"></i>
-											<i>Долго я искал того, кто сможет сделать обычный встроенный шкаф нормально — без ужасных пластиковых уголков, которые до сих пор все для чего-то используют. Просмотрел кучу шкафов и мебели у друзей и родственников — тихий ужас... Нашел фабрику "ГарантШкаф" и получилось более чем хорошо! Вместо уголков все сделано на евро-винтах и хитрых штуковинах, которые прячутся внутри полок и не бросаются в глаза. Кроме того, все делается на станках, поэтому размеры и зазоры идеально ровные. По цвету мы хотели иное решение, но по совету Михаила пересмотрели планы и получилось лучше, чем мы ожидали. За это отдельное спасибо! :) Всем рекомендую!</i>
-											<i class="fas fa-quote-right text-secondary ms-2"></i>
-										</p>
-										<a  href="<?php echo get_stylesheet_directory_uri(); ?>/img/testimonials/testimonial-3-3.jpg"  target="_blank">
-											Оригинал отзыва
-										</a>
+								<div class="carousel-item">
+									<div class="row justify-content-center">
+										<div class="col-md-3">
+											<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/testimonials/testimonial-2.jpg"  class="d-block w-100 rounded mb-3 mb-md-0" alt="..."/>
+										</div>
+										<div class="col-md-6">
+											<h3>Маргарита, Москва</h3>
+											<p class="mt-0">
+												<i class="fas fa-quote-left text-secondary me-2"></i>
+												<i>Мы заказали пару месяцев назад в детскую комнату шкаф-купе. Комната маленькая (9 квадратов) и нам не позволительно тратить место на покупные низкие шкафы. Наша цель занять все место до потолка. К нам пришел мастер от фирмы "ГарантШкаф", который хорошо разбирается в этом вопросе и посоветовал, как сделать лучше. После того как мы выдвинули наши пожелания, он предоставил нам проект. Чтобы мы визуально в компьютере могли увидеть свой шкаф. После этого мы выбрали цвет, фурнитуру. Шкаф  получился большой вместительный. Большой плюс, что двери раздвигаются, а не открываются, как раньше, это большое экономии места. Нам сделали шуфляды выдвижные с автодоводом - очень удобно.</i>
+												<i class="fas fa-quote-right text-secondary ms-2"></i>
+											</p>
+											<a href="<?php echo get_stylesheet_directory_uri(); ?>/img/testimonials/testimonial-2-2.jpg"  target="_blank">Оригинал отзыва</a>
+										</div>
 									</div>
 								</div>
+								<div class="carousel-item">
+									<div class="row justify-content-center">
+										<div class="col-md-3">
+											<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/testimonials/testimonial-3.jpg"  class="d-block w-100 rounded mb-3 mb-md-0" alt="..."/>
+										</div>
+										<div class="col-md-6">
+											<h3>Иван, Одинцово</h3>
+											<p class="mt-0">
+												<i class="fas fa-quote-left text-secondary me-2"></i>
+												<i>Долго я искал того, кто сможет сделать обычный встроенный шкаф нормально — без ужасных пластиковых уголков, которые до сих пор все для чего-то используют. Просмотрел кучу шкафов и мебели у друзей и родственников — тихий ужас... Нашел фабрику "ГарантШкаф" и получилось более чем хорошо! Вместо уголков все сделано на евро-винтах и хитрых штуковинах, которые прячутся внутри полок и не бросаются в глаза. Кроме того, все делается на станках, поэтому размеры и зазоры идеально ровные. По цвету мы хотели иное решение, но по совету Михаила пересмотрели планы и получилось лучше, чем мы ожидали. За это отдельное спасибо! :) Всем рекомендую!</i>
+												<i class="fas fa-quote-right text-secondary ms-2"></i>
+											</p>
+											<a  href="<?php echo get_stylesheet_directory_uri(); ?>/img/testimonials/testimonial-3-3.jpg"  target="_blank">
+												Оригинал отзыва
+											</a>
+										</div>
+									</div>
+								</div>
+						  </div>
+						  <button class="carousel-control-prev"  type="button"  data-bs-target="#carouselTestimonials"  data-bs-slide="prev">
+								<span class="carousel-control-prev-icon bg-dark rounded" style="height: 3.5rem"  aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+						  </button>
+						  <button class="carousel-control-next"  type="button"  data-bs-target="#carouselTestimonials"  data-bs-slide="next">
+								<span  class="carousel-control-next-icon bg-dark rounded"  style="height: 3.5rem"  aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+						  </button>
+						</div>
+						<div class="row">
+							<div class="col-12 col-md-10">
+								<div class="line"></div>
 							</div>
-                      </div>
-                      <button class="carousel-control-prev"  type="button"  data-bs-target="#carouselTestimonials"  data-bs-slide="prev">
-							<span class="carousel-control-prev-icon bg-dark rounded" style="height: 3.5rem"  aria-hidden="true"></span>
-							<span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next"  type="button"  data-bs-target="#carouselTestimonials"  data-bs-slide="next">
-							<span  class="carousel-control-next-icon bg-dark rounded"  style="height: 3.5rem"  aria-hidden="true"></span>
-							<span class="visually-hidden">Next</span>
-                      </button>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-md-10">
-							<div class="line"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /Testimonials section -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /Testimonials section -->
 
 
-    <!--process zakaza-->
-	<div id="sp-kak-zakazat" class="scroll-points"></div>
-    <section id="process">
-        <div  class="container"  style=" max-width: 1700px;  border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-					<h3 class="text-center">
-						Как происходит процесс заказа, оплаты и установки шкафа-купе:
-					</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <div class="row">
-                        <div class="col-lg-3 text-center step">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-1.png" class="img-fluid" />
-							<p>Звонок или заявка <br />на сайте</p>
-                        </div>
-                        <div class="col-lg-3 text-center step">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-2.png" class="img-fluid" />
-							<p>Консультация менеджера и выезд замерщика</p>
-                        </div>
-                        <div class="col-lg-3 text-center step">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-3.png" class="img-fluid" />
-							<p>Замер и выбор <br />материалов</p>
-                        </div>
-                        <div class="col-lg-3 text-center">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-4.png" class="img-fluid" />
-							<p>Определение окончательной стоимости</p>
-                        </div>
-                        <div class="col-lg-3 text-center step">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-5.png" class="img-fluid" />
-							<p>Принятие Вами решения о заказе шкафа купе у нас. Только здесь Вы вносите предоплату 30% по Договору (любой удобный для Вас способ предоплаты)</p>
-                        </div>
-                        <div class="col-lg-3 text-center step">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-6.png" class="img-fluid" />
-							<p>Создание и <br />согласование 3D проекта и запуск его в производство</p>
-                        </div>
-                        <div class="col-lg-3 text-center step">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-7.png" class="img-fluid" />
-							<p>Доставка и установка <br />одним днем</p>
-                        </div>
-                        <div class="col-lg-3 text-center">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-8.png" class="img-fluid" />
-							<p>Прием работы и окончательные расчеты</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--process zakaza-->
-
-
-   
-	<!--forma-stoimost-->
-    <section id="stoimost">
-        <div  class="container"  style="max-width: 1700px; border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
-            <div class="bg-q">
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-3">
+		<!--process zakaza-->
+		<div id="sp-kak-zakazat" class="scroll-points"></div>
+		<section id="process">
+			<div  class="container"  style=" max-width: 1700px;  border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
+				<div class="row">
+					<div class="col-lg-6 offset-lg-3">
 						<h3 class="text-center">
-							Узнайте точную стоимость Вашего шкафа за 15 минут!
+							Как происходит процесс заказа, оплаты и установки шкафа-купе:
 						</h3>
-						<div class="border-yell"></div>
-                    </div>
-                    <div class="col-lg-4 offset-lg-4">
-						<p class="text-center">Для расчета опишите шкаф своими словами. При необходимости прикрепите изображение</p>
-                      <form  method="post"  action="<?php echo get_stylesheet_directory_uri(); ?>/mails/get_calculate.php" enctype="multipart/form-data">
-                        <textarea type="text" rows="3" name="mes" class="form-control" placeholder="Например: длина, ширина, глубина, количество дверей, материал дверей, форма, вид шкафа и т.д." style="height: auto; margin-top: 15px; margin-bottom: 15px"></textarea>
-                        <p class="input-group custom-file-button">
-                          <label class="input-group-text" for="inputGroupFile3">
-                            Прикрепить
-                          </label>
-                          <input  type="file"  name="file[]"  class="form-control"  style="border: none"  id="inputGroupFile3"  accept=".jpg,.jpeg,.png,.pdf,.heic"  multiple=""/>
-                        </p>
-                        <p>
-                          <input type="text" name="name"  class="form-control"  style="margin-top: 15px" placeholder="Ваше Имя"/>
-                        </p>
-
-                        <p>
-                          <input  type="text"  name="tel"  id="phone_mask_3"  class="form-control telMask"  style="margin-top: 15px" placeholder="Ваш телефон"  required/>
-                        </p>
-                        <p>
-                          <input  type="email"  id="email"  name="email"  class="form-control"  placeholder="Ваш email" required/>
-                        </p>
-                        <label class="form-check-label" for="exampleCheck11">
-                          <input  type="checkbox"  class="form-check-input" id="exampleCheck11"checked/>
-                            Я согласен на обработку моих
-                          <a href="index.html">персональных данных</a>.
-                        </label>
-
-												<input type="hidden" id="g-recaptcha-response-callback" name="g-recaptcha-response">
-
-                        <button  type="submit"  class="btn btn-danger" style="width: 100%">
-                          Отправить
-                        </button>
-                      </form>
-                      <!-- <form method="post" action="mails/order.php">
-                        <p><input type="text" name="name" class="form-control" placeholder="Ваше Имя"></p>
-                        <p><input type="text" id="phone_mask_5" name="tel" class="form-control telMask" placeholder="Ваш телефон" required></p>
-                        <p><input type="email" id="email" name="email" class="form-control" placeholder="Ваш email" required></p>
-                        <label class="form-check-label" for="exampleCheck13"><input type="checkbox" class="form-check-input" id="exampleCheck13" checked>Я согласен на обработку моих <a href="">персональных данных</a>.</label>
-                        <button type="submit" class="btn btn-danger" style="width: 100%;">Отправить</button>
-                      </form> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--forma-stoimost-->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 offset-md-2">
+						<div class="row">
+							<div class="col-lg-3 text-center step">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-1.png" class="img-fluid" />
+								<p>Звонок или заявка <br />на сайте</p>
+							</div>
+							<div class="col-lg-3 text-center step">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-2.png" class="img-fluid" />
+								<p>Консультация менеджера и выезд замерщика</p>
+							</div>
+							<div class="col-lg-3 text-center step">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-3.png" class="img-fluid" />
+								<p>Замер и выбор <br />материалов</p>
+							</div>
+							<div class="col-lg-3 text-center">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-4.png" class="img-fluid" />
+								<p>Определение окончательной стоимости</p>
+							</div>
+							<div class="col-lg-3 text-center step">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-5.png" class="img-fluid" />
+								<p>Принятие Вами решения о заказе шкафа купе у нас. Только здесь Вы вносите предоплату 30% по Договору (любой удобный для Вас способ предоплаты)</p>
+							</div>
+							<div class="col-lg-3 text-center step">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-6.png" class="img-fluid" />
+								<p>Создание и <br />согласование 3D проекта и запуск его в производство</p>
+							</div>
+							<div class="col-lg-3 text-center step">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-7.png" class="img-fluid" />
+								<p>Доставка и установка <br />одним днем</p>
+							</div>
+							<div class="col-lg-3 text-center">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico/step-8.png" class="img-fluid" />
+								<p>Прием работы и окончательные расчеты</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--process zakaza-->
 
 
    
-	<!-- Answers section -->
-	<div id="sp-faq" class="scroll-points"></div>
-    <section id="answers">
-        <div  class="container" style="max-width: 1700px;  border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
-            <div class="row">
-                <div class="col-md-10 offset-md-1">
-                  <h2><span>05</span> / Наши ответы на часто задаваемые вопросы</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 offset-lg-2 order-2 order-lg-1">
-                  <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h4 class="accordion-header" id="headingOne">
-                        <button  class="accordion-button collapsed text-uppercase"   type="button"  data-bs-toggle="collapse"  data-bs-target="#collapseOne"  aria-expanded="false" aria-controls="collapseOne">
-                          Сколько времени требуется на производство и установку
-                          шкафа-купе?
-                        </button>
-                      </h4>
-                      <div  id="collapseOne"  class="accordion-collapse collapse"  aria-labelledby="headingOne"  data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          МЫ НЕ ОБЕЩАЕМ СДЕЛАТЬ ШКАФ ЗА ДЕНЬ, ДВА, ТРИ ИЛИ ДАЖЕ 5
-                          ДНЕЙ. МЫ НЕ ВВОДИМ НАШИХ КЛИЕНТОВ В ЗАБЛУЖДЕНИЕ. ОТ ЗАКАЗА
-                          ДО УСТАНОВКИ ШКАФА В СРЕДНЕМ ПРОХОДИТ 1,5-2 НЕДЕЛИ, ПОСЛЕ
-                          ЧЕГО МЫ ПРИВЕЗЕМ И УСТАНОВИМ ШКАФ ОДНИМ ДНЕМ.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h4 class="accordion-header" id="headingTwo">
-                        <button  class="accordion-button collapsed text-uppercase"  type="button"  data-bs-toggle="collapse"  data-bs-target="#collapseTwo"  aria-expanded="false"  aria-controls="collapseTwo">
-                          Насколько надежная Ваша компания?
-                        </button>
-                      </h4>
-                      <div  id="collapseTwo"  class="accordion-collapse collapse"  aria-labelledby="headingTwo"  data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          МЫ ДЕЛАЕМ ВСТРОЕННУЮ И КОРПУСНУЮ МЕБЕЛЬ БОЛЕЕ 10 ЛЕТ, ИМЕЕМ
-                          СОБСТВЕННОЕ ПРОИЗВОДСТВО, КОТОРОЕ ВЫ МОЖЕТЕ ПОСЕТИТЬ, ЧТОБЫ
-                          УБЕДИТЬСЯ, ЧТО МЫ САМИ ИЗГОТАВЛИВАЕМ ВСЕ ШКАФЫ, А НЕ
-                          ПОРУЧАЕМ ЭТО ДРУГИМ, А С ВАС БЕРЕМ ДОПОЛНИТЕЛЬНУЮ НАЦЕНКУ.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h4 class="accordion-header" id="headingThree">
-                        <button  class="accordion-button collapsed text-uppercase"  type="button"  data-bs-toggle="collapse"  data-bs-target="#collapseThree"  aria-expanded="false"  aria-controls="collapseThree">
-                          КАК ВЫБРАТЬ НАПОЛНЕНИЕ И ДИЗАЙН ШКАФА?
-                        </button>
-                      </h4>
-                      <div  id="collapseThree"  class="accordion-collapse collapse"  aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          НАШИ ЗАМЕРЩИКИ ПОМОГУТ ВАМ С ВЫБОРОМ МАТЕРИАЛОВ И НАПОЛНЕНИЯ
-                          ШКАФА С УЧЕТОМ ВАШИХ ПОЖЕЛАНИЙ И КОНСТРУКТИВНЫХ ВОЗМОЖНОСТЕЙ
-                          ПОМЕЩЕНИЯ.
-                        </div>
-                      </div>
-                    </div>
+		<!--forma-stoimost-->
+		<section id="stoimost">
+			<div  class="container"  style="max-width: 1700px; border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
+				<div class="bg-q">
+					<div class="row">
+						<div class="col-lg-6 offset-lg-3">
+							<h3 class="text-center">
+								Узнайте точную стоимость Вашего шкафа за 15 минут!
+							</h3>
+							<div class="border-yell"></div>
+						</div>
+						<div class="col-lg-4 offset-lg-4">
+							<p class="text-center">Для расчета опишите шкаф своими словами. При необходимости прикрепите изображение</p>
+						  <form  method="post" action="<?php echo get_stylesheet_directory_uri(); ?>/mails/get_calculate.php" enctype="multipart/form-data">
+								<textarea type="text" rows="3" name="mes" class="form-control" placeholder="Например: длина, ширина, глубина, количество дверей, материал дверей, форма, вид шкафа и т.д." style="height: auto; margin-top: 15px; margin-bottom: 15px"></textarea>
+								<p class="input-group custom-file-button">
+								<label class="input-group-text" for="inputGroupFile3">
+									Прикрепить
+								</label>
+								<input  type="file"  name="file[]"  class="form-control"  style="border: none"  id="inputGroupFile3"  accept=".jpg,.jpeg,.png,.pdf,.heic"  multiple=""/>
+								</p>
+								<p>
+									<input type="text" name="name"  class="form-control"  style="margin-top: 15px" placeholder="Ваше Имя"/>
+								</p>
 
-                    <div class="accordion-item">
-                      <h4 class="accordion-header" id="headingFour">
-                        <button  class="accordion-button collapsed text-uppercase"  type="button"  data-bs-toggle="collapse"  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                          С КАКИМИ ПРОИЗВОДИТЕЛЯМИ МАТЕРИАЛОВ ВЫ РАБОТАЕТЕ?
-                        </button>
-                      </h4>
-                      <div  id="collapseFour"  class="accordion-collapse collapse"  aria-labelledby="headingFour"  data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          МЫ РАБОТАЕМ С ОДНИМИ ИЗ ВЕДУЩИХ ПРОИЗВОДИТЕЛЕЙ, ОБЛАДАЮЩИХ
-                          БОЛЬШОЙ ПАЛИТРОЙ ЦВЕТОВ И ВЫСОКИМ КАЧЕСТВОМ ЛДСП, ТАКИМИ КАК
-                          EGGER, РУССКИЙ ЛАМИНАТ. ПРОФИЛЬ ДЛЯ ДВЕРЕЙ МЫ ИСПОЛЬЗУЕМ
-                          ARISTO, ITALUM И INLUX.
-                        </div>
-                      </div>
-                    </div>
+								<p>
+									<input  type="text"  name="tel"  id="phone_mask_3"  class="form-control telMask"  style="margin-top: 15px" placeholder="Ваш телефон"  required/>
+								</p>
+								<p>
+								<input  type="email"  id="email"  name="email"  class="form-control"  placeholder="Ваш email" required/>
+								</p>
+								<label class="form-check-label" for="exampleCheck11">
+									<input  type="checkbox" class="form-check-input" id="exampleCheck11" checked />
+									Я согласен на обработку моих <a href="index.html">персональных данных</a>.
+								</label>
+													
+								<input type="hidden" id="g-recaptcha-response-order-3-with-mail" name="g-recaptcha-response">
+								<button  type="submit"  class="btn btn-danger" style="width: 100%">Отправить</button>
+						  </form>
+						  <!-- <form method="post" action="mails/order.php">
+							<p><input type="text" name="name" class="form-control" placeholder="Ваше Имя"></p>
+							<p><input type="text" id="phone_mask_5" name="tel" class="form-control telMask" placeholder="Ваш телефон" required></p>
+							<p><input type="email" id="email" name="email" class="form-control" placeholder="Ваш email" required></p>
+							<label class="form-check-label" for="exampleCheck13"><input type="checkbox" class="form-check-input" id="exampleCheck13" checked>Я согласен на обработку моих <a href="">персональных данных</a>.</label>
+							<button type="submit" class="btn btn-danger" style="width: 100%;">Отправить</button>
+						  </form> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--forma-stoimost-->
 
-                    <div class="accordion-item">
-                      <h4 class="accordion-header" id="headingFive">
-                        <button  class="accordion-button collapsed text-uppercase"  type="button"  data-bs-toggle="collapse"  data-bs-target="#collapseFive"  aria-expanded="false" aria-controls="collapseFive">
-                          КАК Я МОГУ УЗНАТЬ ТОЧНУЮ СТОИМОСТЬ БУДУЩЕГО ШКАФА?
-                        </button>
-                      </h4>
-                      <div  id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          ПОСЛЕ ЗАМЕРА И ВЫБОРА МАТЕРИАЛОВ ШКАФА МЫ СРАЗУ СКАЖЕМ ВАМ
-                          ОКОНЧАТЕЛЬНУЮ СТОИМОСТЬ. СТОИМОСТЬ ВКЛЮЧАЕТ В СЕБЯ
-                          ИЗГОТОВЛЕНИЕ, ДОСТАВКУ И УСТАНОВКУ. БОЛЬШЕ НИКАКИХ СКРЫТЫХ
-                          ПЛАТЕЖЕЙ.
-                        </div>
-                      </div>
-                    </div>
+   
+		<!-- Answers section -->
+		<div id="sp-faq" class="scroll-points"></div>
+		<section id="answers">
+			<div  class="container" style="max-width: 1700px;  border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
+				<div class="row">
+					<div class="col-md-10 offset-md-1">
+					  <h2><span>05</span> / Наши ответы на часто задаваемые вопросы</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 offset-lg-2 order-2 order-lg-1">
+					  <div class="accordion" id="accordionExample">
+						<div class="accordion-item">
+						  <h4 class="accordion-header" id="headingOne">
+							<button  class="accordion-button collapsed text-uppercase"   type="button"  data-bs-toggle="collapse"  data-bs-target="#collapseOne"  aria-expanded="false" aria-controls="collapseOne">
+							  Сколько времени требуется на производство и установку
+							  шкафа-купе?
+							</button>
+						  </h4>
+						  <div  id="collapseOne"  class="accordion-collapse collapse"  aria-labelledby="headingOne"  data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+							  МЫ НЕ ОБЕЩАЕМ СДЕЛАТЬ ШКАФ ЗА ДЕНЬ, ДВА, ТРИ ИЛИ ДАЖЕ 5
+							  ДНЕЙ. МЫ НЕ ВВОДИМ НАШИХ КЛИЕНТОВ В ЗАБЛУЖДЕНИЕ. ОТ ЗАКАЗА
+							  ДО УСТАНОВКИ ШКАФА В СРЕДНЕМ ПРОХОДИТ 1,5-2 НЕДЕЛИ, ПОСЛЕ
+							  ЧЕГО МЫ ПРИВЕЗЕМ И УСТАНОВИМ ШКАФ ОДНИМ ДНЕМ.
+							</div>
+						  </div>
+						</div>
+						<div class="accordion-item">
+						  <h4 class="accordion-header" id="headingTwo">
+							<button  class="accordion-button collapsed text-uppercase"  type="button"  data-bs-toggle="collapse"  data-bs-target="#collapseTwo"  aria-expanded="false"  aria-controls="collapseTwo">
+							  Насколько надежная Ваша компания?
+							</button>
+						  </h4>
+						  <div  id="collapseTwo"  class="accordion-collapse collapse"  aria-labelledby="headingTwo"  data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+							  МЫ ДЕЛАЕМ ВСТРОЕННУЮ И КОРПУСНУЮ МЕБЕЛЬ БОЛЕЕ 10 ЛЕТ, ИМЕЕМ
+							  СОБСТВЕННОЕ ПРОИЗВОДСТВО, КОТОРОЕ ВЫ МОЖЕТЕ ПОСЕТИТЬ, ЧТОБЫ
+							  УБЕДИТЬСЯ, ЧТО МЫ САМИ ИЗГОТАВЛИВАЕМ ВСЕ ШКАФЫ, А НЕ
+							  ПОРУЧАЕМ ЭТО ДРУГИМ, А С ВАС БЕРЕМ ДОПОЛНИТЕЛЬНУЮ НАЦЕНКУ.
+							</div>
+						  </div>
+						</div>
+						<div class="accordion-item">
+						  <h4 class="accordion-header" id="headingThree">
+							<button  class="accordion-button collapsed text-uppercase"  type="button"  data-bs-toggle="collapse"  data-bs-target="#collapseThree"  aria-expanded="false"  aria-controls="collapseThree">
+							  КАК ВЫБРАТЬ НАПОЛНЕНИЕ И ДИЗАЙН ШКАФА?
+							</button>
+						  </h4>
+						  <div  id="collapseThree"  class="accordion-collapse collapse"  aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+							  НАШИ ЗАМЕРЩИКИ ПОМОГУТ ВАМ С ВЫБОРОМ МАТЕРИАЛОВ И НАПОЛНЕНИЯ
+							  ШКАФА С УЧЕТОМ ВАШИХ ПОЖЕЛАНИЙ И КОНСТРУКТИВНЫХ ВОЗМОЖНОСТЕЙ
+							  ПОМЕЩЕНИЯ.
+							</div>
+						  </div>
+						</div>
 
-                    <div class="accordion-item">
-                      <h4 class="accordion-header" id="headingSix">
-                        <button  class="accordion-button collapsed text-uppercase"  type="button"  data-bs-toggle="collapse"  data-bs-target="#collapseSix"  aria-expanded="false"  aria-controls="collapseSix">
-                          НАСКОЛЬКО КОНКУРЕНТНЫ ВАШИ ЦЕНЫ?
-                        </button>
-                      </h4>
-                      <div  id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          У НАС СОБСТВЕННОЕ ПРОИЗВОДСТВО. ПОЭТОМУ МЫ МОЖЕМ
-                          ГАРАНТИРОВАТЬ ОДНИ ИЗ САМЫХ НИЗКИХ ЦЕН!
-                        </div>
-                      </div>
-                    </div>
+						<div class="accordion-item">
+						  <h4 class="accordion-header" id="headingFour">
+							<button  class="accordion-button collapsed text-uppercase"  type="button"  data-bs-toggle="collapse"  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+							  С КАКИМИ ПРОИЗВОДИТЕЛЯМИ МАТЕРИАЛОВ ВЫ РАБОТАЕТЕ?
+							</button>
+						  </h4>
+						  <div  id="collapseFour"  class="accordion-collapse collapse"  aria-labelledby="headingFour"  data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+							  МЫ РАБОТАЕМ С ОДНИМИ ИЗ ВЕДУЩИХ ПРОИЗВОДИТЕЛЕЙ, ОБЛАДАЮЩИХ
+							  БОЛЬШОЙ ПАЛИТРОЙ ЦВЕТОВ И ВЫСОКИМ КАЧЕСТВОМ ЛДСП, ТАКИМИ КАК
+							  EGGER, РУССКИЙ ЛАМИНАТ. ПРОФИЛЬ ДЛЯ ДВЕРЕЙ МЫ ИСПОЛЬЗУЕМ
+							  ARISTO, ITALUM И INLUX.
+							</div>
+						  </div>
+						</div>
 
-                    <div class="accordion-item">
-                      <h4 class="accordion-header" id="headingSeven">
-                        <button  class="accordion-button collapsed text-uppercase"  type="button"  data-bs-toggle="collapse"  data-bs-target="#collapseSeven"  aria-expanded="false"  aria-controls="collapseSeven">
-                          КАКИЕ ГАРАНТИИ ВЫ ДАЕТЕ?
-                        </button>
-                      </h4>
-                      <div id="collapseSeven"  class="accordion-collapse collapse  aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          МЫ ДЕЛАЕМ КАЧЕСТВЕННУЮ МЕБЕЛЬ И ИСПОЛНЯЕМ ВСЕ ОБЯЗАТЕЛЬСТВА
-                          И ГАРАНТИИ СОГЛАСНО ДОГОВОРУ!
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-5 offset-lg-1 px-0 text-right order-1 order-lg-2">
-                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/faq.jpg" class="img-fluid without-pad" />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-					<h3 class="text-center">Руководитель фабрики</h3>
-                </div>
-                <div class="col-lg-4 offset-lg-2 text-center">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/director.jpg" class="img-fluid question-img" />
-                </div>
-                <div class="col-lg-4 offset-lg-1">
-                  <p class="text-director">
-                    <!--strong>Иванов Иван Иванович:</strong><br><br-->"Мы производим
-                    шкафы-купе и другую корпусную мебель с 2011 года. Нам нравится
-                    наша работа, нравится делать красивые вещи, нравится получать
-                    слова благодарности от наших клиентов. Приятно, когда твоя работа
-                    радует людей".<br /><br />"Каждому нашему клиенту мы гарантируем:
-                    качественную и красивую продукцию и индивидуальный подход".
-                  </p>
-                </div>
-            </div>
-        </div>
-    </section>
+						<div class="accordion-item">
+						  <h4 class="accordion-header" id="headingFive">
+							<button  class="accordion-button collapsed text-uppercase"  type="button"  data-bs-toggle="collapse"  data-bs-target="#collapseFive"  aria-expanded="false" aria-controls="collapseFive">
+							  КАК Я МОГУ УЗНАТЬ ТОЧНУЮ СТОИМОСТЬ БУДУЩЕГО ШКАФА?
+							</button>
+						  </h4>
+						  <div  id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+							  ПОСЛЕ ЗАМЕРА И ВЫБОРА МАТЕРИАЛОВ ШКАФА МЫ СРАЗУ СКАЖЕМ ВАМ
+							  ОКОНЧАТЕЛЬНУЮ СТОИМОСТЬ. СТОИМОСТЬ ВКЛЮЧАЕТ В СЕБЯ
+							  ИЗГОТОВЛЕНИЕ, ДОСТАВКУ И УСТАНОВКУ. БОЛЬШЕ НИКАКИХ СКРЫТЫХ
+							  ПЛАТЕЖЕЙ.
+							</div>
+						  </div>
+						</div>
+
+						<div class="accordion-item">
+						  <h4 class="accordion-header" id="headingSix">
+							<button  class="accordion-button collapsed text-uppercase"  type="button"  data-bs-toggle="collapse"  data-bs-target="#collapseSix"  aria-expanded="false"  aria-controls="collapseSix">
+							  НАСКОЛЬКО КОНКУРЕНТНЫ ВАШИ ЦЕНЫ?
+							</button>
+						  </h4>
+						  <div  id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+							  У НАС СОБСТВЕННОЕ ПРОИЗВОДСТВО. ПОЭТОМУ МЫ МОЖЕМ
+							  ГАРАНТИРОВАТЬ ОДНИ ИЗ САМЫХ НИЗКИХ ЦЕН!
+							</div>
+						  </div>
+						</div>
+
+						<div class="accordion-item">
+						  <h4 class="accordion-header" id="headingSeven">
+							<button  class="accordion-button collapsed text-uppercase"  type="button"  data-bs-toggle="collapse"  data-bs-target="#collapseSeven"  aria-expanded="false"  aria-controls="collapseSeven">
+							  КАКИЕ ГАРАНТИИ ВЫ ДАЕТЕ?
+							</button>
+						  </h4>
+						  <div id="collapseSeven"  class="accordion-collapse collapse  aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+							  МЫ ДЕЛАЕМ КАЧЕСТВЕННУЮ МЕБЕЛЬ И ИСПОЛНЯЕМ ВСЕ ОБЯЗАТЕЛЬСТВА
+							  И ГАРАНТИИ СОГЛАСНО ДОГОВОРУ!
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<div class="col-lg-5 offset-lg-1 px-0 text-right order-1 order-lg-2">
+					  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/faq.jpg" class="img-fluid without-pad" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 offset-lg-2">
+						<h3 class="text-center">Руководитель фабрики</h3>
+					</div>
+					<div class="col-lg-4 offset-lg-2 text-center">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/director.jpg" class="img-fluid question-img" />
+					</div>
+					<div class="col-lg-4 offset-lg-1">
+					  <p class="text-director">
+						<!--strong>Иванов Иван Иванович:</strong><br><br-->"Мы производим
+						шкафы-купе и другую корпусную мебель с 2011 года. Нам нравится
+						наша работа, нравится делать красивые вещи, нравится получать
+						слова благодарности от наших клиентов. Приятно, когда твоя работа
+						радует людей".<br /><br />"Каждому нашему клиенту мы гарантируем:
+						качественную и красивую продукцию и индивидуальный подход".
+					  </p>
+					</div>
+				</div>
+			</div>
+		</section>
 
     <!-- Quiz section --
 		<div id="sp-calculator"></div>
@@ -1592,6 +1584,7 @@
 		</script>
 		<!-- End quiz script -->
 
+		
 		<div id="sp-contacts" class="scroll-points"></div>
 		<footer id="footer">
 			<div  class="container" style="max-width: 1700px; border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
@@ -1673,7 +1666,6 @@
 		</footer>
 		
 		
-		
 		<!-- Callback button HTML -->
 		<div class="callback-button-wrapper">
 			<div id="callbackBtn" class="callback-button" onclick="callbackButtonClick();">
@@ -1700,7 +1692,6 @@
 			function callbackButtonClick() {
 				
 				let formBtn = document.getElementById('formBtn').style.top;
-				
 				
 				if ( formBtn == "0px" || formBtn == 0 ) {
 					document.getElementById('callbackBtn').style.animation = "none";
@@ -1763,7 +1754,6 @@
 		<!-- /Callback button JS -->
 
 
-		
 		<!-- Callback modal -->
 		<div class="modal fade"  id="callback" tabindex="-1"  aria-labelledby="modalOrderLabel-1"aria-hidden="true">
 			<div class="modal-dialog">
@@ -1778,14 +1768,15 @@
 						<form  method="post" action="<?php echo get_stylesheet_directory_uri(); ?>/mails/callback.php">
 							<p><input type="text"  name="name" class="form-control" placeholder="Ваше имя"/></p>
 							<p><input type="text"  id="phone_mask_2" name="tel" class="form-control telMask" placeholder="Ваш телефон" required /></p>
-							<button type="submit" class="btn btn-danger" style="width: 100%">
-								Отправить
-							</button>
+							
+							<input type="hidden" id="g-recaptcha-response-callback" name="g-recaptcha-response">
+							<button type="submit" class="btn btn-danger" style="width: 100%">Отправить</button>
 						</form>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- End callback modal -->
 		
 		
 		<!-- Modal Want This -->
@@ -1804,9 +1795,9 @@
 							<p>
 								<input  type="text"  id="phone_mask_6" name="tel"  class="form-control telMask"  placeholder="Ваш телефон"  required />
 							</p>
-							<button type="submit" class="btn btn-danger" style="width: 100%">
-								Отправить
-							</button>
+							
+							<input type="hidden" id="g-recaptcha-response-order-modal" name="g-recaptcha-response">
+							<button type="submit" class="btn btn-danger" style="width: 100%">Отправить</button>
 						</form>
 					</div>
 				</div>
@@ -1832,6 +1823,7 @@
 							<p>
 								<input  type="text"  id="phone_mask_7"  name="tel"  class="form-control telMask" placeholder="Ваш телефон" required />
 							</p>
+							<input type="hidden" id="g-recaptcha-response-calculate" name="g-recaptcha-response">
 							<button type="submit" class="btn btn-danger" style="width: 100%">Отправить</button>
 						</form>
 					</div>
@@ -1906,24 +1898,7 @@
 			<!-- Кнопка закрытия галереи -->
 			<button type="button" onClick="closeGallery();" class="btn-close btn-close-white" style="position: fixed; top: 25px; right: 25px; z-index: 99999;" aria-label="Close"></button>
 		</div>
-
-		<script src='https://www.google.com/recaptcha/api.js?render=6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn'></script>
-		<script>
-			grecaptcha.ready(function() {
-				grecaptcha.execute('6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn', {action: 'action_name'}).then(function(token) {
-					if ( document.getElementById('g-recaptcha-response-order') ) {
-						document.getElementById('g-recaptcha-response-order').value=token;
-					}
-					if ( document.getElementById('g-recaptcha-response-message') ) {
-						document.getElementById('g-recaptcha-response-message').value=token;
-					}
-					if ( document.getElementById('g-recaptcha-response-callback') ) {
-							document.getElementById('g-recaptcha-response-callback').value=token;
-					}
-				});
-			});
-		</script>
-
+		
 		<script>
 			/* Функция открытия галереи */
 			function galleryOn(gal, img) {
@@ -2009,6 +1984,33 @@
 			}
 		</script>
 		
+		
+		<script src='https://www.google.com/recaptcha/api.js?render=6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn'></script>
+		<script>
+			grecaptcha.ready(function() {
+				grecaptcha.execute('6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn', {action: 'action_name'}).then(function(token) {
+					if ( document.getElementById('g-recaptcha-response-order-1-home') ) {
+						document.getElementById('g-recaptcha-response-order-1-home').value=token;
+					}
+					if ( document.getElementById('g-recaptcha-response-order-2') ) {
+						document.getElementById('g-recaptcha-response-order-2').value=token;
+					}
+					if ( document.getElementById('g-recaptcha-response-order-3-with-mail') ) {
+						document.getElementById('g-recaptcha-response-order-3-with-mail').value=token;
+					}
+					if ( document.getElementById('g-recaptcha-response-callback') ) {
+						document.getElementById('g-recaptcha-response-callback').value=token;
+					}
+					if ( document.getElementById('g-recaptcha-response-order-modal') ) {
+						document.getElementById('g-recaptcha-response-order-modal').value=token;
+					}
+					if ( document.getElementById('g-recaptcha-response-calculate') ) {
+						document.getElementById('g-recaptcha-response-calculate').value=token;
+					}
+				});
+			});
+		</script>
+		
 
 		<!-- Bootstrap -->
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/bootstrap.bundle.min.js"></script>
@@ -2029,9 +2031,11 @@
 			}
 		</script>
 
+		
 		<!-- Font Awesame
 		<script src="https://kit.fontawesome.com/064ae6a0a2.js"></script> -->
 
+		
 		<!-- Убираем сообщение об успешной отправки -->
 		<script>
 			function f1() {
@@ -2040,14 +2044,18 @@
 			}
 		</script>
 		
+		
 		<!-- jQuery -->
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery-1.5.1.min.js"></script>
+		
 		
 		<!-- script js -->
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/script.js"></script>
 
+		
 		<!-- Menu -->
 		<script>vyezjalo();</script>
+		
 		
 		<!-- New telephone number mask -->
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/inputmask.min.js"></script>

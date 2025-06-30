@@ -58,8 +58,7 @@ include 'header.php';
 											</a>
 										</li>
 										<li class="nav-item me-3">
-											<a href="archive-product-portfolio.html#" class="nav-link" data-bs-toggle="modal"
-												data-bs-target="#callback">
+											<a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#callback">
 												<div class="d-flex nav-link-inner">
 													<div class="nav-li-float-left">
 														<img src="<?php echo get_template_directory_uri(); ?>/img/ico/callback-ico.svg" />
@@ -241,7 +240,7 @@ include 'header.php';
 								<input type="checkbox" class="form-check-input" id="exampleCheck11" checked>
 								Я согласен на обработку моих <a href="#">персональных данных</a>.
 							</label-->
-							<input type="hidden" id="g-recaptcha-response-calculate" name="g-recaptcha-response">
+							<input type="hidden" id="g-recaptcha-response-order-1-home" name="g-recaptcha-response">
 							<button type="submit" class="btn btn-danger" style="width: 100%">
 								Отправить
 							</button>
@@ -874,10 +873,6 @@ include 'header.php';
 </script>
 
 
-
-
-
-
 <!-- SECTION ORDER 1 -->
 <section class="section-order-1 pt-md-0">
 	<div class="container"
@@ -1358,8 +1353,7 @@ include 'header.php';
 									<input type="hidden" id="answer4-2" name="answer4">
 									<input type="hidden" id="answer5-2" name="answer5">
 									<input type="hidden" id="answer6-2" name="answer6">
-									<input type="button" value="Назад" class="btn btn-corporate-color-outline-1"
-										onclick="previousQuostion( '7-2' );">
+									<input type="button" value="Назад" class="btn btn-corporate-color-outline-1" onclick="previousQuostion( '7-2' );">
 									<input type="submit" class="btn btn-danger" value="Отправить">
 								</div>
 							</div>
@@ -1457,7 +1451,6 @@ include 'header.php';
 <!-- /SECTION ABOUT -->
 
 
-
 <!-- SECTION ADVANTAGES -->
 <section class="section-about">
 	<div class="container"
@@ -1536,7 +1529,6 @@ include 'header.php';
 <!-- /SECTION ADVANTAGES -->
 
 
-
 <!-- DERECTOR SECTION -->
 <section class="section-director">
 	<div class="container"
@@ -1558,7 +1550,6 @@ include 'header.php';
 	</div>
 </section>
 <!-- /DERECTOR SECTION -->
-
 
 
 <!-- Testimonials section -->
@@ -1586,7 +1577,6 @@ include 'header.php';
 							<span style="position: relative; top: 3px; margin-left: 10px;">4,5 из 5</span>
 						</p>
 						<p class="mb-0"><a href="https://yandex.ru/maps/org/garantshkaf/43131278671/" class="text-decoration-underline" target="blank">Читать...</a></p-->
-
 					</div>
 				</div>
 			</div>
@@ -1596,8 +1586,7 @@ include 'header.php';
 <!-- /Testimonials section -->
 
 
-
-<!--process zakaza-->
+<!-- PROCESS SECTION -->
 <div id="sp-kak-zakazat"></div>
 <section id="process">
 	<div class="container"
@@ -1645,7 +1634,6 @@ include 'header.php';
 	</div>
 </section>
 <!--process zakaza-->
-
 
 
 <!-- FAQ section -->
@@ -1768,7 +1756,6 @@ include 'header.php';
 </section>
 
 
-
 <!-- SECTION ORDER 1 -->
 <section class="section-order-1 pt-md-0">
 	<div class="container"
@@ -1821,7 +1808,7 @@ include 'header.php';
 										Я согласен на обработку моих <a href="index.html">персональных данных</a>.
 									</label>
 
-									<input type="hidden" id="g-recaptcha-response-message" name="g-recaptcha-response">
+									<input type="hidden" id="g-recaptcha-response-order-3-with-mail" name="g-recaptcha-response">
 									<button type="submit" class="btn btn-danger" style="width: 100%">Отправить</button>
 								</form>
 							</div>
@@ -2005,30 +1992,11 @@ include 'header.php';
 		<div id="footer1" class="row align-items-center">
 			<div class="col">
 				<p class="font-weight-bold text-center mb-0">©<?php echo date('Y'); ?>г. Мебельная фабрика «Гарантшкаф»</p>
-				<p class="font-weight-light m-0 text-center fs-16">Создание и продвижение: <a href="https://site100.ru"
-						target="_blank">site<span class="text-danger">100</span>.ru</a></p>
+				<p class="font-weight-light m-0 text-center fs-16">Создание и продвижение: <a href="https://site100.ru" target="_blank">site<span class="text-danger">100</span>.ru</a></p>
 			</div>
 		</div>
 	</div>
 </footer>
-
-
-<script src='https://www.google.com/recaptcha/api.js?render=6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn'></script>
-<script>
-	grecaptcha.ready(function () {
-		grecaptcha.execute('6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn', { action: 'action_name' }).then(function (token) {
-			if (document.getElementById('g-recaptcha-response-order')) {
-				document.getElementById('g-recaptcha-response-order').value = token;
-			}
-			if (document.getElementById('g-recaptcha-response-message')) {
-				document.getElementById('g-recaptcha-response-message').value = token;
-			}
-			if (document.getElementById('g-recaptcha-response-callback')) {
-				document.getElementById('g-recaptcha-response-callback').value = token;
-			}
-		});
-	});
-</script>
 
 
 <?php include 'footer.php'; ?>

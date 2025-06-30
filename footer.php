@@ -87,7 +87,7 @@
 <!-- /Callback button JS -->
 		
 		
-
+<!-- Callback modal -->
 <div class="modal fade"  id="callback" tabindex="-1"  aria-labelledby="modalOrderLabel-1"aria-hidden="true">
 	<div class="modal-dialog">
 		<div class="modal-content">
@@ -99,23 +99,19 @@
 			</div>
 			<div class="modal-body">
 				<form  method="post" action="<?php echo get_stylesheet_directory_uri(); ?>/mails/callback.php">
-					<p>
-						<input type="text"  name="name" class="form-control" placeholder="Ваше имя"/>
-					</p>
-					<p>
-						<input type="text"  id="phone_mask_2" name="tel" class="form-control telMask" placeholder="Ваш телефон"  required/>
-					</p>
-					<button type="submit" class="btn btn-danger" style="width: 100%">
-						Отправить
-					</button>
+					<p><input type="text"  name="name" class="form-control" placeholder="Ваше имя"/></p>
+					<p><input type="text"  id="phone_mask_2" name="tel" class="form-control telMask" placeholder="Ваш телефон" required /></p>
+					
+					<input type="hidden" id="g-recaptcha-response-callback" name="g-recaptcha-response">
+					<button type="submit" class="btn btn-danger" style="width: 100%">Отправить</button>
 				</form>
 			</div>
 		</div>
 	</div>
 </div>
-    
-	
-	
+<!-- End callback modal -->
+
+
 <!-- Modal Want This -->
 <div  class="modal fade"  id="want-this"  tabindex="-1"  aria-labelledby="modalOrderLabel-2" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered">
@@ -130,19 +126,18 @@
 						<input  type="text"  name="name"  class="form-control"  placeholder="Ваше имя"/>
 					</p>
 					<p>
-						<input  type="text"  id="phone_mask_6" name="tel"  class="form-control telMask"  placeholder="Ваш телефон"  required/>
+						<input  type="text"  id="phone_mask_6" name="tel"  class="form-control telMask"  placeholder="Ваш телефон"  required />
 					</p>
-					<button type="submit" class="btn btn-danger" style="width: 100%">
-						Отправить
-					</button>
+					
+					<input type="hidden" id="g-recaptcha-response-order-modal" name="g-recaptcha-response">
+					<button type="submit" class="btn btn-danger" style="width: 100%">Отправить</button>
 				</form>
 			</div>
 		</div>
 	</div>
 </div>
 
-    
-	
+
 <!-- Modal order 2 -->
 <div class="modal fade"  id="order2"  tabindex="-1" aria-labelledby="modalOrder2Label"  aria-hidden="true">
 	<div class="modal-dialog">
@@ -159,11 +154,10 @@
 						<input  type="text"  name="name"  class="form-control"  placeholder="Ваше имя"/>
 					</p>
 					<p>
-						<input  type="text"  id="phone_mask_7"  name="tel"  class="form-control telMask" placeholder="Ваш телефон" required/>
+						<input  type="text"  id="phone_mask_7"  name="tel"  class="form-control telMask" placeholder="Ваш телефон" required />
 					</p>
-					<button type="submit" class="btn btn-danger" style="width: 100%">
-						Отправить
-					</button>
+					<input type="hidden" id="g-recaptcha-response-calculate" name="g-recaptcha-response">
+					<button type="submit" class="btn btn-danger" style="width: 100%">Отправить</button>
 				</form>
 			</div>
 		</div>
@@ -243,22 +237,28 @@
 <script>vyezjalo();</script>
 
 
-<!-- reCaptcha v3 New from Google -->
 <script src='https://www.google.com/recaptcha/api.js?render=6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn'></script>
 <script>
 	grecaptcha.ready(function() {
 		grecaptcha.execute('6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn', {action: 'action_name'}).then(function(token) {
+			if ( document.getElementById('g-recaptcha-response-order-1-home') ) {
+				document.getElementById('g-recaptcha-response-order-1-home').value=token;
+			}
+			if ( document.getElementById('g-recaptcha-response-order-2') ) {
+				document.getElementById('g-recaptcha-response-order-2').value=token;
+			}
+			if ( document.getElementById('g-recaptcha-response-order-3-with-mail') ) {
+				document.getElementById('g-recaptcha-response-order-3-with-mail').value=token;
+			}
+			if ( document.getElementById('g-recaptcha-response-callback') ) {
+				document.getElementById('g-recaptcha-response-callback').value=token;
+			}
+			if ( document.getElementById('g-recaptcha-response-order-modal') ) {
+				document.getElementById('g-recaptcha-response-order-modal').value=token;
+			}
 			if ( document.getElementById('g-recaptcha-response-calculate') ) {
 				document.getElementById('g-recaptcha-response-calculate').value=token;
 			}
-			/*
-			if ( document.getElementById('g-recaptcha-response-calculatePriceWithDownload') ) {
-				document.getElementById('g-recaptcha-response-calculatePriceWithDownload').value=token;
-			}
-			if ( document.getElementById('g-recaptcha-response-calculatePriceWithoutDownload') ) {
-				document.getElementById('g-recaptcha-response-calculatePriceWithoutDownload').value=token;
-			}
-			*/
 		});
 	});
 </script>
