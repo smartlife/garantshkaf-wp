@@ -966,7 +966,7 @@
                                 </div>
                                 <div class="col-10">
 									<p class="mb-2">Для расчета опишите дверь-купе своими словами. При возможности прикрепите изображение.</p>
-									<form  method="post"  action="" enctype="multipart/form-data">
+									<form  method="post"  action="<?php echo get_template_directory_uri(); ?>/mails/get_calculate.php" enctype="multipart/form-data">
 										<textarea type="text" rows="3" name="mes" class="form-control" placeholder="Например: длина, ширина, глубина, количество дверей, материал дверей, форма, вид шкафа и т.д." style="height: auto;  margin-top: 15px;  margin-bottom: 15px;"></textarea>
 										<p class="input-group custom-file-button">
 											<label class="input-group-text" for="inputGroupFile3">

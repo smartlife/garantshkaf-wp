@@ -1623,9 +1623,9 @@
 									<li><a href="/" class="active">Корпусная мебель</a></li>
 									<li><a href="<?php echo site_url('/shkafy-cupe/'); ?>">Шкафы-купе</a></li>
 									<li><a href="<?php echo site_url('/dveri-cupe/'); ?>">Двери-купе</a></li>
-									<li><a href="/shkafy-raspashnye">Шкафы распашные</a></li>
-									<li><a href="/garderobnye">Гардеробные</a></li>
-									<li><a href="/rabochie-zony">Рабочие зоны</a></li>
+									<li><a href="<?php echo site_url('/shkafy-raspashnye/'); ?>">Шкафы распашные</a></li>
+									<li><a href="<?php echo site_url('/garderobnye/'); ?>">Гардеробные</a></li>
+									<li><a href="<?php echo site_url('/rabochie-zony/'); ?>">Рабочие зоны</a></li>
 								</ul>
 							</div>
 						</div>
@@ -1662,7 +1662,7 @@
 				<div id="footer1" class="row align-items-center pb-3">
 					<div class="col">
 						<p class="font-weight-bold text-center mb-0">
-							Мебельная фабрика "ГАРАНТШКАФ" © 2025г.
+							Мебельная фабрика «ГАРАНТШКАФ» © <?php echo date('Y'); ?>г.
 						</p>
 						<p class="font-weight-light m-0 text-center fs-16">
 							Создание и продвижение сайтов: <a href="https://сайт100.рф" target="_blank">сайт<span class="text-danger">100</span>.рф</a>
