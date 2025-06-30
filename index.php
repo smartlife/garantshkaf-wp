@@ -2065,5 +2065,9 @@
 			var im = new Inputmask("+7(999)999-99-99");
 			im.mask(telMask);
 		</script>
+
+		<script>
+			console.log(1)
+		</script>
 	</body>
 </html>
