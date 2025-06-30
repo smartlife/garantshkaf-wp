@@ -1622,7 +1622,7 @@
 								<ul>
 									<li><a href="/" class="active">Корпусная мебель</a></li>
 									<li><a href="<?php echo site_url('/shkafy-cupe/'); ?>">Шкафы-купе</a></li>
-									<li><a href="/dveri-cupe">Двери-купе</a></li>
+									<li><a href="<?php echo site_url('/dveri-cupe/'); ?>">Двери-купе</a></li>
 									<li><a href="/shkafy-raspashnye">Шкафы распашные</a></li>
 									<li><a href="/garderobnye">Гардеробные</a></li>
 									<li><a href="/rabochie-zony">Рабочие зоны</a></li>
