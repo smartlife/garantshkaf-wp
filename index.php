@@ -1990,21 +1990,27 @@
 		<script>
 			grecaptcha.ready(function() {
 				grecaptcha.execute('6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn', {action: 'action_name'}).then(function(token) {
+					// В боке Home
 					if ( document.getElementById('g-recaptcha-response-order-1-home') ) {
 						document.getElementById('g-recaptcha-response-order-1-home').value=token;
 					}
+					// В обычном блоке
 					if ( document.getElementById('g-recaptcha-response-order-2') ) {
 						document.getElementById('g-recaptcha-response-order-2').value=token;
 					}
+					
 					if ( document.getElementById('g-recaptcha-response-order-3-with-mail') ) {
 						document.getElementById('g-recaptcha-response-order-3-with-mail').value=token;
 					}
+					
 					if ( document.getElementById('g-recaptcha-response-callback') ) {
 						document.getElementById('g-recaptcha-response-callback').value=token;
 					}
+					
 					if ( document.getElementById('g-recaptcha-response-order-modal') ) {
 						document.getElementById('g-recaptcha-response-order-modal').value=token;
 					}
+					
 					if ( document.getElementById('g-recaptcha-response-calculate') ) {
 						document.getElementById('g-recaptcha-response-calculate').value=token;
 					}
