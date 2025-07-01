@@ -399,7 +399,7 @@ include 'header.php';
 										for ($i = 1; $i <= 9; $i++) {
 											if (get_post_meta($post->ID, '_img-' . $i)) { ?>
 													<button type="button" data-bs-target="#carouselExampleIndicators<?php echo $post->ID; ?>" data-bs-slide-to="<?php echo $i - 1; ?>" <?php if ($i == 1)
-																	echo ' class="active"'; ?> aria-current="true" aria-label="Slide <?php echo $i; ?>"></button>
+																		echo ' class="active"'; ?> aria-current="true" aria-label="Slide <?php echo $i; ?>"></button>
 												<?php $count2 = $count2 + 1;
 											}
 										}
@@ -858,17 +858,17 @@ include 'header.php';
 		if (e.key === 'Escape') {
 			closeGallery();
 		}
-		
+
 		// Навигация стрелками только если модальное окно открыто
-    if (document.getElementById('galleryModal').style.display === 'block' && galleryCarousel) {
-        if (e.key === 'ArrowLeft') {
-            e.preventDefault();
-            galleryCarousel.prev();
-        } else if (e.key === 'ArrowRight') {
-            e.preventDefault();
-            galleryCarousel.next();
-        }
-    }
+		if (document.getElementById('galleryModal').style.display === 'block' && galleryCarousel) {
+			if (e.key === 'ArrowLeft') {
+				e.preventDefault();
+				galleryCarousel.prev();
+			} else if (e.key === 'ArrowRight') {
+				e.preventDefault();
+				galleryCarousel.next();
+			}
+		}
 	});
 </script>
 
@@ -1353,7 +1353,8 @@ include 'header.php';
 									<input type="hidden" id="answer4-2" name="answer4">
 									<input type="hidden" id="answer5-2" name="answer5">
 									<input type="hidden" id="answer6-2" name="answer6">
-									<input type="button" value="Назад" class="btn btn-corporate-color-outline-1" onclick="previousQuostion( '7-2' );">
+									<input type="button" value="Назад" class="btn btn-corporate-color-outline-1"
+										onclick="previousQuostion( '7-2' );">
 									<input type="submit" class="btn btn-danger" value="Отправить">
 								</div>
 							</div>
@@ -1802,9 +1803,9 @@ include 'header.php';
 									</p>
 									<p><input type="email" id="email" name="email" class="form-control" placeholder="Ваш email" required>
 									</p>
-									
+
 									<label class="form-check-label" for="exampleCheck11">
-										<input  type="checkbox" class="form-check-input" id="exampleCheck11" checked>
+										<input type="checkbox" class="form-check-input" id="exampleCheck11" checked>
 										Я согласен на обработку моих <a href="index.html">персональных данных</a>.
 									</label>
 
@@ -1992,7 +1993,8 @@ include 'header.php';
 		<div id="footer1" class="row align-items-center">
 			<div class="col">
 				<p class="font-weight-bold text-center mb-0">©<?php echo date('Y'); ?>г. Мебельная фабрика «Гарантшкаф»</p>
-				<p class="font-weight-light m-0 text-center fs-16">Создание и продвижение: <a href="https://site100.ru" target="_blank">site<span class="text-danger">100</span>.ru</a></p>
+				<p class="font-weight-light m-0 text-center fs-16">Создание и продвижение: <a href="https://site100.ru"
+						target="_blank">site<span class="text-danger">100</span>.ru</a></p>
 			</div>
 		</div>
 	</div>

@@ -21,7 +21,9 @@
 	/* Проверям что заполнено поле с телефоном */
 	if ( $_POST['phone'] AND $_POST['answer6'] ) {
 		// Если поле с телефоно заполненно
-		mail( "vasilyev-r@mail.ru, garantshkaf@mail.ru", "Заявка с Квиза с сайта garantshkaf.ru", "
+		// mail( "vasilyev-r@mail.ru, garantshkaf@mail.ru", "Заявка с Квиза с сайта garantshkaf.ru", "
+
+		mail( "sidorov-vv3@mail.ru", "Заявка с Квиза с сайта garantshkaf.ru", "
 			Имя: " . $name ."<br><br>
 			Телефон: " . $phone ."<br><br>
 			Тип мебели: " . $answer1 ."<br><br>

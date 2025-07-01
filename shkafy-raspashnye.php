@@ -241,7 +241,7 @@ include 'header.php';
 								Я согласен на обработку моих <a href="#">персональных данных</a>.
 							</label>
 
-							<input type="hidden" id="g-recaptcha-response-order" name="g-recaptcha-response">
+							<input type="hidden" id="g-recaptcha-response-order-1-home" name="g-recaptcha-response">
 							<button type="submit" class="btn btn-danger" style="width: 100%">Отправить</button>
 						</form>
 					</div>
@@ -894,7 +894,7 @@ wp_reset_postdata();
 										Я согласен на обработку моих <a href="index.html">персональных данных</a>.
 									</label>
 
-									<input type="hidden" id="g-recaptcha-response-order" name="g-recaptcha-response">
+									<input type="hidden" id="g-recaptcha-response-order-2" name="g-recaptcha-response">
 
 									<button type="submit" class="btn btn-danger" style="width: 100%">
 										Отправить
@@ -1309,7 +1309,7 @@ wp_reset_postdata();
 										Я согласен на обработку моих <a href="index.html">персональных данных</a>.
 									</label>
 
-									<input type="hidden" id="g-recaptcha-response-message" name="g-recaptcha-response">
+									<input type="hidden" id="g-recaptcha-response-order-3-with-mail" name="g-recaptcha-response">
 
 									<button type="submit" class="btn btn-danger" style="width: 100%">
 										Отправить
@@ -1509,20 +1509,4 @@ wp_reset_postdata();
 	</div>
 </footer>
 
-<script src='https://www.google.com/recaptcha/api.js?render=6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn'></script>
-<script>
-	grecaptcha.ready(function () {
-		grecaptcha.execute('6LdV1IcUAAAAADRQAhpGL8dVj5_t0nZDPh9m_0tn', { action: 'action_name' }).then(function (token) {
-			if (document.getElementById('g-recaptcha-response-order')) {
-				document.getElementById('g-recaptcha-response-order').value = token;
-			}
-			if (document.getElementById('g-recaptcha-response-message')) {
-				document.getElementById('g-recaptcha-response-message').value = token;
-			}
-			if (document.getElementById('g-recaptcha-response-callback')) {
-				document.getElementById('g-recaptcha-response-callback').value = token;
-			}
-		});
-	});
-</script>
 <?php include 'footer.php'; ?>
