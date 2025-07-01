@@ -19,8 +19,7 @@
 	
 			$name = $_POST['name'];
 			$tel = $_POST['tel'];	
-			mail( "sidorov-vv3@mail.ru", "Заказ обратного звонка с сайта гарантшкаф.рф.", "Потенциальный клиент ".$name." просит перезвонить Вас на номер " . $tel );
-			// mail( "garantshkaf@mail.ru, vasilyev-r@mail.ru", "Заказ обратного звонка с сайта гарантшкаф.рф.", "Потенциальный клиент ".$name." просит перезвонить Вас на номер " . $tel );
+			mail( "garantshkaf@mail.ru, vasilyev-r@mail.ru", "Заказ обратного звонка с сайта гарантшкаф.рф.", "Потенциальный клиент ".$name." просит перезвонить Вас на номер " . $tel );
 			$_SESSION['win'] = 1;
 			$_SESSION['recaptcha'] = '<p class="text-light">Спасибо за обращение в компанию «ГАРАНТШКАФ». Мы ответим Вам в&#160;ближайшее время.</p>';
 			header("Location: ".$_SERVER['HTTP_REFERER']);
