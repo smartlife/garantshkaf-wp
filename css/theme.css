@@ -3254,7 +3254,8 @@ section#uznat-stoimost label.form-check-label,
 
 .form-control#inputGroupFile,
 .form-control#inputGroupFile2,
-.form-control#inputGroupFile3 {
+.form-control#inputGroupFile3,
+.form-control#inputGroupFile3-3 {
 	margin: 0;
 	line-height: 46px;
 }

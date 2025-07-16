@@ -118,7 +118,7 @@
 												<ul id="%1$s" class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0 %2$s">%3$s
 													<!-- Mobile menu -->
 													<li class="nav-item d-lg-none mobile-item">
-														<a  class="nav-link active"  href="#" data-bs-toggle="modal" data-bs-target="#measurerModal">
+														<a  class="nav-link active"  href="#" data-bs-toggle="modal" data-bs-target="#callback">
 															Вызов замерщика (Бесплатно)
 														</a>
 													</li>
@@ -270,7 +270,7 @@
 								<ul id="%1$s" class="navbar-nav ms-auto mb-2 mb-lg-0 %2$s">%3$s
 									<!-- Mobile menu -->
 									<li class="nav-item d-lg-none mobile-item">
-										<a  class="nav-link active modal-link"  href="#"  data-bs-toggle="modal"  data-bs-target="#measurerModal">
+										<a  class="nav-link active modal-link"  href="#"  data-bs-toggle="modal"  data-bs-target="#callback">
 											Вызов замерщика (Бесплатно)
 										</a>
 									</li>

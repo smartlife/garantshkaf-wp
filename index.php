@@ -299,7 +299,7 @@
 												</li>
 												<!-- Mobile menu -->
 												<li class="nav-item d-lg-none mobile-item">
-													<a  class="nav-link active"  href="#" data-bs-toggle="modal" data-bs-target="#measurerModal">
+													<a  class="nav-link active"  href="#" data-bs-toggle="modal" data-bs-target="#callback">
 														Вызов замерщика
 													</a>
 												</li>
@@ -504,7 +504,7 @@
 							  <!-- Mobile menu -->
 
 							  <li class="nav-item d-lg-none mobile-item">
-								<a  class="nav-link active modal-link"  href="#"  data-bs-toggle="modal"  data-bs-target="#measurerModal">
+								<a  class="nav-link active modal-link"  href="#"  data-bs-toggle="modal"  data-bs-target="#callback">
 								  Вызов замерщика
 								</a>
 							  </li>
@@ -673,8 +673,8 @@
 										<form  method="post"  action="<?php echo get_stylesheet_directory_uri(); ?>/mails/get_calculate.php" enctype="multipart/form-data">
 											<textarea  type="text"  rows="3"  name="mes"  class="form-control"  placeholder="Например: длина, ширина, глубина, количество дверей, материал дверей, форма, вид шкафа и т.д." style="height: auto;  margin-top: 15px;  margin-bottom: 15px;"></textarea>
 											<p class="input-group custom-file-button">
-												<label class="input-group-text" for="inputGroupFile3">Прикрепить</label>
-												<input  type="file"  name="file[]"  class="form-control"  style="border: none"  id="inputGroupFile3"  accept=".jpg,.jpeg,.png,.pdf,.heic"  multiple=""/>
+												<label class="input-group-text" for="inputGroupFile3-3">Прикрепить</label>
+												<input  type="file"  name="file[]"  class="form-control"  style="border: none"  id="inputGroupFile3-3"  accept=".jpg,.jpeg,.png,.pdf,.heic"  multiple=""/>
 											</p>
 											<p>
 												<input  type="text"   name="name"  class="form-control"  style="margin-top: 15px"  placeholder="Ваше Имя"/>
@@ -1659,7 +1659,7 @@
 							Мебельная фабрика «ГАРАНТШКАФ» © <?php echo date('Y'); ?>г.
 						</p>
 						<p class="font-weight-light m-0 text-center fs-16">
-							Создание и продвижение сайтов: <a href="https://сайт100.рф" target="_blank">сайт<span class="text-danger">100</span>.рф</a>
+							Создание и продвижение сайтов: <a href="https://site100.ru" target="_blank">site<span class="text-danger">100</span>.ru</a>
 						</p>
 					</div>
 				</div>

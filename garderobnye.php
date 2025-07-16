@@ -128,7 +128,7 @@ include 'header.php';
 												<ul id="%1$s" class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0 %2$s">%3$s
 													<!-- Mobile menu -->
 													<li class="nav-item d-lg-none mobile-item">
-														<a  class="nav-link active"  href="#" data-bs-toggle="modal" data-bs-target="#measurerModal">
+														<a  class="nav-link active"  href="#" data-bs-toggle="modal" data-bs-target="#callback">
 															Вызов замерщика (Бесплатно)
 														</a>
 													</li>
@@ -284,7 +284,7 @@ include 'header.php';
 								<ul id="%1$s" class="navbar-nav ms-auto mb-2 mb-lg-0 %2$s">%3$s
 									<!-- Mobile menu -->
 									<li class="nav-item d-lg-none mobile-item">
-										<a  class="nav-link active modal-link"  href="#"  data-bs-toggle="modal"  data-bs-target="#measurerModal">
+										<a  class="nav-link active modal-link"  href="#"  data-bs-toggle="modal"  data-bs-target="#callback">
 											Вызов замерщика (Бесплатно)
 										</a>
 									</li>
@@ -1311,10 +1311,10 @@ wp_reset_postdata();
 										placeholder="Например: длина, ширина, глубина, количество дверей, материал дверей, форма, вид шкафа и т.д."
 										style="height: auto;  margin-top: 15px;  margin-bottom: 15px;"></textarea>
 									<p class="input-group custom-file-button">
-										<label class="input-group-text" for="inputGroupFile3">
+										<label class="input-group-text" for="inputGroupFile3-3">
 											Прикрепить
 										</label>
-										<input type="file" name="file[]" class="form-control" style="border: none" id="inputGroupFile3"
+										<input type="file" name="file[]" class="form-control" style="border: none" id="inputGroupFile3-3"
 											accept=".jpg,.jpeg,.png,.pdf,.heic" multiple="" />
 									</p>
 

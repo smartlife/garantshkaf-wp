@@ -22,7 +22,7 @@
 			$mes = $_POST['mes'];
 			if ( isset( $_POST['email'] ) ) { $email = $_POST['email']; } else { $email = ''; }
 			
-			$to 	 = 'vasilyev-r@mail.ru, garantshkaf@mail.ru';
+			$to 	 = 'garantshkaf@mail.ru, vasilyev-r@mail.ru';
 			$from 	 = 'info@garantshkaf.ru';
 			$subject = 'Заявка на расчет стоимости с сайта garantshkaf.ru';
 			 
