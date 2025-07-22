@@ -95,7 +95,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-		<!-- Required meta tags --->
+		<!-- Required meta tags -->
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta property="og:title" content="<?php echo $product; ?> и&nbsp;другая корпусная&nbsp;мебель на&nbsp;заказ от&nbsp;производителя<?php echo $location; ?>"/>
