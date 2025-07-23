@@ -5,7 +5,8 @@
  * Template Post Type: page
  */
 
-// Страница архива портфолио с реализованными проектами.
+// Страница архива портфолио с реализованными проектами,
+// использует masonry-сетку для карточек.
 include 'header.php';
 
 ?>
@@ -169,7 +170,7 @@ include 'header.php';
 
 
 		<div class="container">
-			<div class="row">
+                                <div class="row">
 				<div class="col-lg-7 offset-lg-1">
 					<h1>Наши <span>работы</span></h1>
 					<ul class="main-list">
@@ -380,7 +381,7 @@ include 'header.php';
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row portfolio-grid">
 					<?php
 					$args = [
 						'post_type' => 'portfolio',

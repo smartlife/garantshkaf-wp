@@ -6,7 +6,8 @@
 	 */
 	 
 	include 'header.php';
-// Отображает элементы портфолио, отфильтрованные по категории.
+// Отображает элементы портфолио, отфильтрованные по категории,
+// использует masonry-сетку для карточек.
 	 
 ?>
 <!-- SECTION HOME -->
@@ -161,7 +162,7 @@
 	
 	
 		<div class="container">
-			<div class="row">
+                                <div class="row portfolio-grid">
 				<div class="col-lg-7 offset-lg-1">
 					<h1>Наши <span>работы</span></h1>
 					<ul class="main-list">
