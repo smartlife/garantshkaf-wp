@@ -4,6 +4,7 @@
 	 * Template Name: Главная
 	 * Template Post Type: page
 	**/
+// Главный шаблон: формирует метатеги исходя из локации и выбранных товаров.
 	
 	session_start();
 	

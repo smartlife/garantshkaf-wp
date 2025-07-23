@@ -5,6 +5,7 @@
  * Template Post Type: page
  */
 
+// Шаблон страницы с примерами распашных шкафов.
 include 'header.php';
 
 ?>

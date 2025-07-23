@@ -1,3 +1,4 @@
+<?php // Шаблон подвала со всплывающими окнами и подключением скриптов ?>
 <!-- Callback button HTML -->
 <div class="callback-button-wrapper">
 	<div id="callbackBtn" class="callback-button" onclick="callbackButtonClick();">

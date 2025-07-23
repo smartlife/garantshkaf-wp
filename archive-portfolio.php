@@ -5,6 +5,7 @@
  * Template Post Type: page
  */
 
+// Страница архива портфолио с реализованными проектами.
 include 'header.php';
 
 ?>
