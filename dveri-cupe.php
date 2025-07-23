@@ -5,7 +5,7 @@
  * Template Post Type: page
  */
 
-// Шаблон страницы с описанием дверей-купе.
+// Шаблон страницы с описанием дверей-купе, содержит masonry-галерею.
 include 'header.php';
 
 ?>
@@ -326,7 +326,7 @@ include 'header.php';
 <section class="section-video">
 	<div class="container"
 		style="max-width: 1700px; padding-top: 80px; padding-bottom: 50px; border-right: 1px solid rgba(153, 153, 153, 0.9);  border-left: 1px solid rgba(153, 153, 153, 0.9);">
-		<div class="row justify-content-center">
+                                <div class="row justify-content-center portfolio-grid">
 			<div class="col-md-9">
 				<h2><span>01</span> / Посмотрите нашу видеопрезентацию</h2>
 				<div class="row justify-content-center">
