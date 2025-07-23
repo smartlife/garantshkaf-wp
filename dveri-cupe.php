@@ -5,6 +5,7 @@
  * Template Post Type: page
  */
 
+// Шаблон страницы с описанием дверей-купе.
 include 'header.php';
 
 ?>

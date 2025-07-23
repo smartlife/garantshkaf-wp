@@ -5,6 +5,7 @@
  * Template Post Type: page
  */
 
+// Шаблон страницы рабочих зон офиса.
 include 'header.php';
 
 ?>

@@ -5,6 +5,7 @@
  * Template Post Type: page
  */
 
+// Шаблон страницы с примерами гардеробных.
 include 'header.php';
 
 ?>

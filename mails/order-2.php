@@ -1,4 +1,5 @@
 <?php
+// Простой обработчик заявок на расчёт стоимости.
 	session_start();
 	$win = "true";
 	$name = $_POST['name'];
